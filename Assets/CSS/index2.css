@@ -1,0 +1,2484 @@
+/* need to make max-width */
+
+@font-face {
+	font-family: alvania;
+	src: url(Alvania.ttf);
+}
+
+@font-face {
+	font-family: lora;
+	src: url(Lora-MediumItalic.ttf);
+}
+
+.animationDay {
+	background: linear-gradient(rgb(137, 182, 207),rgb(166, 186, 215),rgb(174, 188, 217),rgb(203, 198, 210),rgb(235, 209, 202),rgb(250, 223, 192),rgb(254, 242, 210),rgb(254, 242, 210),rgb(254, 242, 210));
+}
+
+.animationNight {
+	background: rgb(61, 57, 83);
+}
+
+  #balloonB {
+	animation: MoveBalloonB 19s linear infinite;
+	position: absolute;
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
+	left: 85%;
+	top: 21%;
+	/* opacity: 0.6; */
+  }
+  @keyframes MoveBalloonB {
+	0%, 100% { top: 10%; left: 4%}
+	50% { top: 6%; left: 9%; }
+  }
+
+  #balloonC {
+	animation: MoveBalloonC 19s linear infinite;
+	position: absolute;
+	left: 85%;
+	top: 21%;
+	/* opacity: 1; */
+  }
+  @keyframes MoveBalloonC {
+	0%, 100% { top: 40%; left: 67%}
+	50% { top: 43%; left: 64%; }
+  }
+
+  /* #balloonD {
+	animation: MoveBalloonD 19s linear infinite;
+	position: absolute;
+	left: 85%;
+	top: 21%;
+	/* opacity: ; */
+  /* }
+  @keyframes MoveBalloonD {
+	0%, 100% { top: 45%; left: 57%}
+	50% { top: 48%; left: 55%; }
+  } */ 
+
+  #wheelchair_balloon {
+	animation: wheelchair_balloon 21s linear infinite;
+	position: absolute;
+	left: 85%;
+	top: 61%;
+	/* opacity: ; */
+  }
+  @keyframes wheelchair_balloon {
+	0%, 100% { top: 10%; left: 77%}
+	50% { top: 15%; left: 80%; }
+  }
+
+  #whale_girl{
+	animation: whale_girl 19s linear infinite;
+	position: absolute;
+	left: 85%;
+	top: 21%;
+  }
+  @keyframes whale_girl {
+	0%, 100% { top: 45%; left: 20%}
+	50% { top: 47%; left: 24%; }
+  }
+
+  #crane1 {
+	animation: crane1 7s linear infinite;
+	position: absolute;
+	opacity: 0.8;
+	left: 85%;
+	top: 21%;
+  }
+  @keyframes crane1 {
+	0%, 100% { top: 4%; left: 64%}
+	50% { top: 6%; left: 62%; }
+  }
+
+  #crane2 {
+	animation: crane2 7s linear infinite;
+	position: absolute;
+	opacity: 0.8;
+	left: 85%;
+	top: 21%;
+  }
+  @keyframes crane2 {
+	0%, 100% { top: 8%; left: 66%}
+	50% { top: 10%; left: 64%; }
+  }
+
+  #crane3 {
+	animation: crane3 7s linear infinite;
+	position: absolute;
+	opacity: 0.8;
+	left: 85%;
+	top: 21%;
+  }
+  @keyframes crane3 {
+	0%, 100% { top: 12%; left: 68%}
+	50% { top: 14%; left: 66%; }
+  }
+
+  #crane4 {
+	animation: crane4 7s linear infinite;
+	position: absolute;
+	opacity: 0.8;
+	left: 85%;
+	top: 21%;
+  }
+  @keyframes crane4 {
+	0%, 100% { top: 16%; left: 66%}
+	50% { top: 18%; left: 64%; }
+  }
+
+  #crane5 {
+	animation: crane5 7s linear infinite;
+	position: absolute;
+	opacity: 0.8;
+	left: 85%;
+	top: 21%;
+  }
+  @keyframes crane5 {
+	0%, 100% { top: 20%; left: 64%}
+	50% { top: 22%; left: 62%; }
+  }
+
+  #cloudA {
+	animation: MoveUpDownA 9s linear infinite;
+	position: absolute;
+	left: 70%;
+	top: -1%;
+	opacity: 0.7;
+  }
+  
+  @keyframes MoveUpDownA {
+	0%, 100% { top: 102%; left: 57%}
+	50% { top: 105%; left: 62%; }
+  }
+
+  #cloudB {
+	animation: MoveUpDownB 14s linear infinite;
+	position: absolute;
+	left: 55%;
+	top: 0%;
+	opacity: 0.55;
+  }
+  
+  @keyframes MoveUpDownB {
+	0%, 100% { top: 106%; left: 72%}
+	50% { top: 108%; left: 69%; }
+  }
+
+  #cloudC {
+	animation: MoveUpDownC 7s linear infinite;
+	position: absolute;
+	left: 42%;
+	top: -3%;
+	opacity: 0.5;
+  }
+  
+  @keyframes MoveUpDownC {
+	0%, 100% { top: 112%; left: 32%}
+	50% { top: 108%; left: 28%; }
+  }
+  
+  #cloudD{
+	animation: MoveUpDownD 17s linear infinite;
+	position: absolute;
+	left: 2%;
+	top: -2%;
+	opacity: 0.6;
+  }
+  
+  @keyframes MoveUpDownD {
+	0%, 100% { top: 107%; left: 3%}
+	50% { top: 104%; left: -3%; }
+  }
+
+  #cloudE {
+	animation: MoveUpDownE 9s linear infinite;
+	position: absolute;
+	left: -5%;
+	top: 80%;
+	opacity: 0.55;
+  }
+  
+  @keyframes MoveUpDownE {
+	0%, 100% { top: 99%; left: 22%}
+	50% { top: 101%; left: 20%; }
+  }
+
+  #cloudF {
+	animation: MoveUpDownF 16s linear infinite;
+	position: absolute;
+	left: 45%;
+	top: 84%;
+	opacity: 0.6;
+  }
+  
+  @keyframes MoveUpDownF {
+	0%, 100% { top: 99%; left: 49%}
+	50% { top: 95%; left: 45%; }
+  }
+
+  #cloudG {
+	animation: MoveUpDownG 19s linear infinite;
+	position: absolute;
+	left: 35%;
+	top: 135%;
+	opacity: 0.15;
+  }
+  
+  @keyframes MoveUpDownG {
+	0%, 100% { top: 135%; left: 35%}
+	50% { top: 133%; left: 38%; }
+  }
+
+  #cloudH {
+	animation: MoveUpDownH 12s linear infinite;
+	position: absolute;
+	left: 65%;
+	top: 80%;
+	opacity: 0.4;
+  }
+  
+  @keyframes MoveUpDownH {
+	0%, 100% { top: 101%; left: 68%}
+	50% { top: 95%; left: 66%; }
+  }
+  
+  #cloudI {
+	animation: MoveUpDownI 11s linear infinite;
+	position: absolute;
+	left: 7%;
+	top: 100%;
+	opacity: 0.7;
+  }
+  
+  @keyframes MoveUpDownI {
+	0%, 100% { top: 78%; left: -2%}
+	50% { top: 80%; left: -4%; }
+  }
+
+  #cloudJ {
+	animation: MoveUpDownJ 9s linear infinite;
+	position: absolute;
+	left: -5%;
+	top: 80%;
+	opacity: 0.55;
+  }
+  
+  @keyframes MoveUpDownJ {
+	0%, 100% { top: 86%; left: 1%}
+	50% { top: 90%; left: 3%; }
+  }
+
+  #cloudK {
+	animation: MoveUpDownK 7s linear infinite;
+	position: absolute;
+	left: 42%;
+	top: -3%;
+	opacity: 0.6;
+  }
+  
+  @keyframes MoveUpDownK {
+	0%, 100% { top: 92%; left: 23%}
+	50% { top: 95%; left: 24%; }
+  }
+
+
+  #cloudL{
+	animation: MoveUpDownL 17s linear infinite;
+	position: absolute;
+	left: 2%;
+	top: -2%;
+	opacity: 0.6;
+  }
+  
+  @keyframes MoveUpDownL {
+	0%, 100% { top: 71%; left: -1%}
+	50% { top: 73%; left: -2%; }
+  }
+
+  #cloudM{
+	animation: MoveUpDownM 17s linear infinite;
+	position: absolute;
+	left: 2%;
+	top: -2%;
+	opacity: 0.6;
+  }
+  
+  @keyframes MoveUpDownM {
+	0%, 100% { top: 80%; left: 18%}
+	50% { top: 82%; left: 15%; }
+  }
+
+  #cloudN{
+	animation: MoveUpDownN 17s linear infinite;
+	position: absolute;
+	left: 2%;
+	top: -2%;
+	opacity: 0.6;
+  }
+  
+  @keyframes MoveUpDownN {
+	0%, 100% { top: 81%; left: 33%}
+	50% { top: 79%; left: 30%; }
+  }
+
+body {
+	/*don't know if some components rely on the body's little margin as restrictions,
+	but footer needs to go all the way across*/
+	margin: 0;
+
+	/*careful, may mess up elsewhere*/
+	overflow-x: hidden;
+	
+	/*background: url("rosehackimg.PNG");*/
+	text-align: center;
+	color: #9C9FB7;
+
+	min-width: 50%;
+	font-family: lora;
+	/* font-family: 'Lora', serif; */
+	font-weight: normal;
+	font-size: 25px;
+	letter-spacing: 0.1rem;
+}
+
+h1, h2, h3 {
+	font-family: alvania, 'serif';
+}
+
+#background {
+	/* padding-bottom: 2%; */
+	position: relative;
+}
+
+#cloud0-5 {
+	animation: MoveUpDown0-5 10s linear infinite;
+	position: absolute;
+	left: 20%;
+	top: -10%;
+	opacity: 0.55;
+  }
+  
+  @keyframes MoveUpDown0-5 {
+	0%, 100% { top: -10%; left: 16% }
+	50% { top: -8%; left: 21%; }
+  }
+
+  /* @keyframes MoveUpDown0-5 {
+	0%, 100% { top: 235%; left: 14% }
+	50% { top: 238%; left: 21%; }
+  } */
+
+  #cloud0-6 {
+	animation: MoveUpDown0-6 8s linear infinite;
+	position: absolute;
+	left: 10%;
+	top: 2%;
+	opacity: 0.4;
+  }
+  
+  @keyframes MoveUpDown0-6 {
+	0%, 100% { top: 3%; left: 3% }
+	50% { top: 0%; left: 11%; }
+  }
+
+  /* @keyframes MoveUpDown0-6 {
+	0%, 100% { top: 253%; left: 7% }
+	50% { top: 249%; left: 14%; }
+  } */
+
+  #cloud1 {
+	animation: MoveUpDown 4s linear infinite;
+	position: absolute;
+	left: 38%;
+	top: 50%;
+	opacity: 0.25;
+  }
+ 
+  @keyframes MoveUpDown {
+	0%, 100% { top: 50%; }
+	50% { top: 55%; }
+  }
+
+  /* @keyframes MoveUpDown {
+	0%, 100% { top: 310%; }
+	50% { top: 312%; }
+  } */
+
+  #cloud2 {
+	animation: MoveUpDown2 15s linear infinite;
+	position: absolute;
+	left: 50%;
+	top: 85%;
+	opacity: 0.45;
+  }
+  
+  @keyframes MoveUpDown2 {
+	0%, 100% { top: 78%; left: 55%}
+	50% { top: 81%; left: 50%; }
+  }
+
+  /* @keyframes MoveUpDown2 {
+	0%, 100% { top: 331%; left: 55%}
+	50% { top: 335%; left: 50%; }
+  } */
+
+  #cloud3 {
+	animation: MoveUpDown3 12s linear infinite;
+	position: absolute;
+	left: 70%;
+	top: 70%;
+	opacity: 0.28;
+  }
+   
+  @keyframes MoveUpDown3 {
+	0%, 100% { top: 73%; left: 70%}
+	50% { top: 74%; left: 76%; }
+  }
+
+  /* @keyframes MoveUpDown3 {
+	0%, 100% { top: 330%; left: 70%}
+	50% { top: 326%; left: 74%; }
+  } */
+
+  #cloud4 {
+	animation: MoveUpDown4 14s linear infinite;
+	position: absolute;
+	left: 10%;
+	top: 55%;
+	opacity: 0.37;
+  }
+  
+  @keyframes MoveUpDown4 {
+	0%, 100% { top: 56%; left: 10%}
+	50% { top: 60%; left: 14%; }
+  }
+
+  /* @keyframes MoveUpDown4 {
+	0%, 100% { top: 399%%; left: 10%}
+	50% { top: 402%; left: 14%; }
+  } */
+
+  #cloud5 {
+	animation: MoveUpDown5 9s linear infinite;
+	position: absolute;
+	left: 70%;
+	top: -1%;
+	opacity: 0.7;
+  }
+  
+  @keyframes MoveUpDown5 {
+	0%, 100% { top: -19%; left: 72%}
+	50% { top: -16%; left: 69%; }
+  }
+
+  /* @keyframes MoveUpDown5 {
+	0%, 100% { top: 112%; left: 72%}
+	50% { top: 116%; left: 68%; }
+  } */
+
+  #cloud5-5 {
+	animation: MoveUpDown5-5 14s linear infinite;
+	position: absolute;
+	left: 55%;
+	top: 0%;
+	opacity: 0.55;
+  }
+  
+  @keyframes MoveUpDown5-5 {
+	0%, 100% { top: -18%; left: 77%}
+	50% { top: -21%; left: 82%; }
+  }
+
+
+  #belltower {
+	animation: belltower 14s linear infinite;
+	position: absolute;
+	left: 55%;
+	top: 0%;
+	opacity: 0.55;
+  }
+  
+  @keyframes belltower {
+	0%, 100% { top: -48%; left: 77%}
+	50% { top: -51%; left: 82%; }
+  }
+
+  /* @keyframes MoveUpDown5-5 {
+	0%, 100% { top: 118%; left: 49%}
+	50% { top: 116%; left: 53%; }
+  } */
+
+  #cloud5-6 {
+	animation: MoveUpDown5-6 7s linear infinite;
+	position: absolute;
+	left: 42%;
+	top: -3%;
+	opacity: 0.3;
+  }
+  
+  @keyframes MoveUpDown5-6 {
+	0%, 100% { top: -35%; left: 60%}
+	50% { top: -32%; left: 64%; }
+  }
+
+  /* @keyframes MoveUpDown5-6 {
+	0%, 100% { top: 114%; left: 38%}
+	50% { top: 110%; left: 42%; }
+  } */
+  
+  #cloud5-7 {
+	animation: MoveUpDown5-7 17s linear infinite;
+	position: absolute;
+	left: 2%;
+	top: -2%;
+	opacity: 0.6;
+  }
+  
+  @keyframes MoveUpDown5-7 {
+	0%, 100% { top: -14%; left: 73%}
+	50% { top: -19%; left: 76%; }
+  }
+
+  /* @keyframes MoveUpDown5-7 {
+	0%, 100% { top: 117%; left: 11%}
+	50% { top: 114%; left: 2%; }
+  } */
+
+  #cloud5-11 {
+	animation: MoveUpDown5-11 15s linear infinite;
+	position: absolute;
+	left: 70%;
+	top: -1%;
+	opacity: 0.8;
+  }
+  
+  @keyframes MoveUpDown5-11 {
+	0%, 100% { top: -27%; left: 81%}
+	50% { top: -23%; left: 84%; }
+  }
+
+  #cloud5-12 {
+	animation: MoveUpDown5-12 12s linear infinite;
+	position: absolute;
+	left: 70%;
+	top: -1%;
+	opacity: 0.8;
+  }
+  
+  @keyframes MoveUpDown5-12 {
+	0%, 100% { top: -26%; left: 6%}
+	50% { top: -22%; left: 2%; }
+  }
+
+  #cloud5-8 {
+	animation: MoveUpDown5-8 14s linear infinite;
+	position: absolute;
+	left: 55%;
+	top: 0%;
+	opacity: 0.8;
+  }
+  
+  @keyframes MoveUpDown5-8 {
+	0%, 100% { top: -14%; left: 93%}
+	50% { top: -12%; left: 89%; }
+  }
+
+  /* @keyframes MoveUpDown5-5 {
+	0%, 100% { top: 118%; left: 49%}
+	50% { top: 116%; left: 53%; }
+  } */
+
+  #cloud5-9 {
+	animation: MoveUpDown5-9 7s linear infinite;
+	position: absolute;
+	left: 42%;
+	top: -3%;
+	opacity: 0.65;
+  }
+  
+  @keyframes MoveUpDown5-9 {
+	0%, 100% { top: -11%; left: 82%}
+	50% { top: -8%; left: 85%; }
+  }
+
+  /* @keyframes MoveUpDown5-6 {
+	0%, 100% { top: 114%; left: 38%}
+	50% { top: 110%; left: 42%; }
+  } */
+  
+  #cloud5-10 {
+	animation: MoveUpDown5-10 17s linear infinite;
+	position: absolute;
+	left: 37%;
+	top: -1%;
+	opacity: 0.7;
+  }
+  
+  @keyframes MoveUpDown5-10 {
+	0%, 100% { top: -26%; left: 0%}
+	50% { top: -24%; left: -4%; }
+  }
+
+  #cloud6 {
+	animation: MoveUpDown6 12s linear infinite;
+	position: absolute;
+	left: 85%;
+	top: 75%;
+	opacity: 0.33;
+  }
+  
+  @keyframes MoveUpDown6 {
+	0%, 100% { top: 74%; left: 76%}
+	50% { top: 76%; left: 70%; }
+  }
+
+  /* @keyframes MoveUpDown6 {
+	0%, 100% { top: 408%; left: 76%}
+	50% { top: 413%; left: 70%; }
+  } */
+
+#cloud7 {
+	animation: MoveUpDown7 15s linear infinite;
+	position: absolute;
+	left: 25%;
+	top: 110%;
+	opacity: 0.28;
+  }
+  
+  @keyframes MoveUpDown7 {
+	0%, 100% { top: 103%; left: 24%}
+	50% { top: 110%; left: 21%; }
+  }
+
+  /* @keyframes MoveUpDown7 {
+	0%, 100% { top: 418%; left: 24%}
+	50% { top: 422%; left: 21%; }
+  } */
+
+  #cloud8 {
+	animation: MoveUpDown8 12s linear infinite;
+	position: absolute;
+	left: 65%;
+	top: 80%;
+	opacity: 0.23;
+  }
+  
+  @keyframes MoveUpDown8 {
+	0%, 100% { top: 108%; left: 65%}
+	50% { top: 112%; left: 66%; }
+  }
+  
+  #cloud9 {
+	animation: MoveUpDown9 11s linear infinite;
+	position: absolute;
+	left: 7%;
+	top: 100%;
+	opacity: 0.19;
+  }
+  
+  @keyframes MoveUpDown9 {
+	0%, 100% { top: 113%; left: 7%}
+	50% { top: 109%; left: 11%; }
+  }
+
+  #cloud10 {
+	animation: MoveUpDown10 9s linear infinite;
+	position: absolute;
+	left: -5%;
+	top: 80%;
+	opacity: 0.26;
+  }
+  
+  @keyframes MoveUpDown10 {
+	0%, 100% { top: 80%; left: 4%}
+	50% { top: 83%; left: -2%; }
+  }
+
+  /* @keyframes MoveUpDown10 {
+	0%, 100% { top: 415%; left: 4%}
+	50% { top: 411%; left: -2%; }
+  } */
+
+  #cloud11 {
+	animation: MoveUpDown11 16s linear infinite;
+	position: absolute;
+	left: 45%;
+	top: 84%;
+	opacity: 0.22;
+  }
+  
+  @keyframes MoveUpDown11 {
+	0%, 100% { top: 87%; left: 40%}
+	50% { top: 83%; left: 45%; }
+  }
+
+  /* @keyframes MoveUpDown11 {
+	0%, 100% { top: 413%; left: 40%}
+	50% { top: 418%; left: 45%; }
+  } */
+
+  #cloud12 {
+	/* animation: MoveUpDown12 19s linear infinite; */
+	position: absolute;
+	left: 35%;
+	top: 135%;
+	opacity: 0.15;
+  }
+  
+  @keyframes MoveUpDown12 {
+	0%, 100% { top: 135%; left: 35%}
+	50% { top: 133%; left: 38%; }
+  }
+
+  /* @keyframes MoveUpDown12 {
+	0%, 100% { top: 436%; left: 35%}
+	50% { top: 443%; left: 38%; }
+  } */
+
+  #balloon01 {
+	animation: MoveBalloon01 19s linear infinite;
+	position: absolute;
+	left: 85%;
+	top: 21%;
+	opacity: 0.4;
+  }
+  
+  @keyframes MoveBalloon01 {
+	0%, 100% { top: 15%; left: 87%}
+	50% { top: 20%; left: 84%; }
+  }
+
+  #balloon02 {
+	animation: MoveBalloon02 16s linear infinite;
+	position: absolute;
+	left: 25%;
+	top: 93%;
+	opacity: 0.5;
+  }
+  
+  @keyframes MoveBalloon02 {
+	0%, 100% { top: 96%; left: 20%}
+	50% { top: 99%; left: 25%; }
+  }
+
+  #balloon03 {
+	animation: MoveBalloon03 16s linear infinite;
+	position: absolute;
+	left: 25%;
+	top: 100%;
+	opacity: 0.6;
+  }
+  
+  @keyframes MoveBalloon03 {
+	0%, 100% { top: 98%; left: 20%}
+	50% { top: 101%; left: 25%; }
+  }
+
+  #balloon04 {
+	animation: MoveBalloon04 19s linear infinite;
+	position: absolute;
+	left: 42%;
+	top: 50%;
+	opacity: 0.3;
+  }
+  
+  @keyframes MoveBalloon04 {
+	0%, 100% { top: 53%; left: 44%}
+	50% { top: 48%; left: 40%; }
+  }
+
+  #balloon05 {
+	animation: MoveBalloon05 16s linear infinite;
+	position: absolute;
+	left: 80%;
+	top: 78%;
+	opacity: 0.25;
+  }
+
+  @keyframes MoveBalloon05 {
+	0%, 100% { top: 78%; left: 81%}
+	50% { top: 82%; left: 82%; }
+  }
+
+  #balloon06 {
+	animation: MoveBalloon06 16s linear infinite;
+	position: absolute;
+	left: 70%;
+	top: -30%;
+	opacity: 0.8;
+  }
+  
+  @keyframes MoveBalloon06 {
+	0%, 100% { top: -28%; left: 70%}
+	50% { top: -34%; left: 62%; }
+  }
+
+  #balloon07 {
+	animation: MoveBalloon07 16s linear infinite;
+	position: absolute;
+	left: 85%;
+	top: -10%;
+	opacity: 0.7;
+  }
+  
+  @keyframes MoveBalloon07 {
+	0%, 100% { top: -13%; left: 82%}
+	50% { top: -8%; left: 86%; }
+  }
+
+  /* #balloon08 {
+	animation: MoveBalloon08 19s linear infinite;
+	position: absolute;
+	left: 5%;
+	top: 844%;
+	opacity: 0.5;
+  }
+  
+  @keyframes MoveBalloon08 {
+	0%, 100% { top: 844%; left: 2%}
+	50% { top: 851%; left: 5%; }
+  } */
+
+  #balloon09 {
+	animation: MoveBalloon09 19s linear infinite;
+	position: absolute;
+	left: 10%;
+	top: 12%;
+	opacity: 0.65;
+  }
+  
+  @keyframes MoveBalloon09 {
+	0%, 100% { top: 10%; left: 11%}
+	50% { top: 12%; left: 6%; }
+  }
+
+  #balloon10 {
+	animation: MoveBalloon10 19s linear infinite;
+	position: absolute;
+	left: 87%;
+	top: -5%;
+	opacity: 0.8;
+  }
+  
+  @keyframes MoveBalloon10 {
+	0%, 100% { top: -6%; left: 87%}
+	50% { top: 0%; left: 93%; }
+  }
+  
+  #balloon11 {
+	animation: MoveBalloon11 19s linear infinite;
+	position: absolute;
+	left: -2%;
+	top: -15%;
+	opacity: 0.75;
+  }
+  
+  @keyframes MoveBalloon11 {
+	0%, 100% { top: -15%; left: -5%}
+	50% { top: -25%; left: -2; }
+  }
+
+  #balloon12 {
+	animation: MoveBalloon12 19s linear infinite;
+	position: absolute;
+	left: -1%;
+	top: 70%;
+	opacity: 0.65;
+  }
+  
+  @keyframes MoveBalloon12 {
+	0%, 100% { top: 70%; left: -4%}
+	50% { top: 75%; left: -1%; }
+  }
+
+  /* animals */
+  #animal01 {
+	animation: MoveAnimal01 19s linear infinite;
+	position: absolute;
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
+	left: 85%;
+	top: 21%;
+	opacity: 0.4;
+  }
+  
+  @keyframes MoveAnimal01 {
+	0%, 100% { top: 21%; left: 84%}
+	50% { top: 28%; left: 87%; }
+  }
+
+  #animal02 {
+	animation: MoveAnimal02 16s linear infinite;
+	position: absolute;
+	left: 25%;
+	top: 93%;
+	opacity: 0.5;
+  }
+  
+  @keyframes MoveAnimal02 {
+	0%, 100% { top: 96%; left: 20%}
+	50% { top: 99%; left: 25%; }
+  }
+
+  #animal03 {
+	animation: MoveAnimal03 16s linear infinite;
+	position: absolute;
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
+	left: 25%;
+	top: 100%;
+	opacity: 0.6;
+  }
+  
+  @keyframes MoveAnimal03 {
+	0%, 100% { top: 98%; left: 20%}
+	50% { top: 101%; left: 25%; }
+  }
+
+  #animal04 {
+	animation: MoveAnimal04 19s linear infinite;
+	position: absolute;
+	left: 42%;
+	top: 50%;
+	opacity: 0.3;
+  }
+  
+  @keyframes MoveAnimal04 {
+	0%, 100% { top: 53%; left: 44%}
+	50% { top: 48%; left: 40%; }
+  }
+
+  #animal05 {
+	animation: MoveAnimal05 16s linear infinite;
+	position: absolute;
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
+	left: 80%;
+	top: 78%;
+	opacity: 0.25;
+  }
+
+  @keyframes MoveAnimal05 {
+	0%, 100% { top: 78%; left: 81%}
+	50% { top: 82%; left: 82%; }
+  }
+
+  #animal06 {
+	animation: MoveAnimal06 16s linear infinite;
+	position: absolute;
+	left: 70%;
+	top: -30%;
+	opacity: 0.8;
+  }
+  
+  @keyframes MoveAnimal06 {
+	0%, 100% { top: -28%; left: 70%}
+	50% { top: -34%; left: 62%; }
+  }
+
+  #animal07 {
+	animation: MoveAnimal07 16s linear infinite;
+	position: absolute;
+	left: 85%;
+	top: -10%;
+	opacity: 0.7;
+  }
+  
+  @keyframes MoveAnimal07 {
+	0%, 100% { top: -13%; left: 82%}
+	50% { top: -8%; left: 86%; }
+  }
+
+  #animal09 {
+	animation: MoveAnimal09 19s linear infinite;
+	position: absolute;
+	left: 10%;
+	top: 12%;
+	opacity: 0.65;
+  }
+  
+  @keyframes MoveAnimal09 {
+	0%, 100% { top: 10%; left: 11%}
+	50% { top: 12%; left: 6%; }
+  }
+
+  #animal10 {
+	animation: MoveAnimal10 19s linear infinite;
+	position: absolute;
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
+	left: 87%;
+	top: -5%;
+	opacity: 0.8;
+  }
+  
+  @keyframes MoveAnimal10 {
+	0%, 100% { top: -6%; left: 87%}
+	50% { top: 0%; left: 93%; }
+  }
+  
+  #animal11 {
+	animation: MoveAnimal11 19s linear infinite;
+	position: absolute;
+	left: -2%;
+	top: -15%;
+	opacity: 0.75;
+  }
+  
+  @keyframes MoveAnimal11 {
+	0%, 100% { top: -15%; left: -5%}
+	50% { top: -25%; left: -2; }
+  }
+
+  #animal12 {
+	animation: MoveAnimal12 19s linear infinite;
+	position: absolute;
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
+	left: -1%;
+	top: 70%;
+	opacity: 0.65;
+  }
+  
+  @keyframes MoveAnimal12 {
+	0%, 100% { top: 70%; left: -4%}
+	50% { top: 75%; left: -1%; }
+  }
+
+.dayGradientBackground {
+	background: -webkit-linear-gradient(rgb(254, 242, 210),rgba(193, 193, 245, 0.35), rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
+	background: linear-gradient(rgb(254, 242, 210),rgba(193, 193, 245, 0.35),rgba(168, 168, 219, 0.35), rgba(168, 168, 219, 0.35), rgba(210, 169, 218, 0.45), rgba(252, 201, 177, 0.55), rgba(230, 176, 197, 0.35), rgba(238, 149, 238, 0.3));
+}
+
+.nightGradientBackground {
+	background: linear-gradient(rgb(61, 57, 83), rgb(76, 72, 97), rgba(119, 129, 145, 0.9),  rgba(3, 63, 99, 0.8), rgba(0, 37, 75, 1), rgba(3, 63, 99, 0.8), #001D37);
+}
+
+h1 {
+	margin-top: 0;
+}
+
+h2 {
+	font-size: 2em;
+	opacity: 1;
+}
+
+hr {
+	opacity: 0.4;
+	width: 90%;
+}
+
+a, a:visited {
+	color: #9C9FB7;
+	text-decoration: none;
+}
+
+#contact a, a:visited {
+	color: #9C9FB7;
+}
+
+.button {
+	background-color: #fff; 
+	opacity: 0.3;
+	border: none;
+	border-radius: 5px;
+	color: #043482;
+	padding: 1% 2%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 0.6em;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.button:active, .button:focus {
+	outline-width: 0;
+}
+
+.button:hover {
+	background-color: #043482;
+	color: white;
+}
+
+.grow:hover { 
+	transform: scale(1.1); 
+	transition: all .3s linear;
+}
+
+#socialMedia a:hover {
+	opacity: 0.7;
+	transition: all .2s linear; 
+}
+
+#socialMedia a:hover span{
+	opacity: 1.0;
+}
+
+/* .section {
+	margin: 10% 0;
+} */
+
+#mlhTag {
+	display: block;
+	max-width: 6.5%;
+	min-width: 5%;
+	position: absolute;
+	right: 4%;
+	top: 0;
+	z-index: 10000;
+	transition: all .40s ease;
+}
+
+#mlhTag:hover {
+	top: -1%;
+	transition: all .40s ease;
+}
+
+#hero {
+	position: absolute;
+	/* height: 100%; */
+	top: 0%; /*0=top of #background*/
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+#imgBack {
+	position: absolute;
+	top: 0%; /*0=top of #background*/
+	left: 0;
+	width: 100%;
+	opacity: 1;
+	/* z-index: 0; */
+}
+
+#imgBack2 {
+	position: absolute;
+	top: 0%;
+	left: 0;
+	width: 100%;
+	opacity: 0.5;
+}
+
+#imgBack3 {
+	position: absolute;
+	top: 0%;
+	left: 0;
+	width: 100%;
+	opacity: 0.7;
+}
+
+#imgBack4 {
+	position: absolute;
+	top: 5%;
+	left: 0;
+	width: 100%;
+	opacity: 0.2;
+}
+
+#imgBackA {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	opacity: 0.7;
+}
+
+#imgBackB {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	opacity: 0.2;
+}
+
+#imgBack5 {
+	position: absolute;
+	top: 5%;
+	left: 0;
+	width: 100%;
+	opacity: 0.8;
+}
+
+#imgBack6 {
+	position: absolute;
+	top: 10%;
+	left: 0;
+	width: 100%;
+	opacity: 0.7;
+}
+
+#imgBack7 {
+	position: absolute;
+	top: 10%;
+	left: 0;
+	width: 100%;
+	opacity: 0.2;
+}
+
+#imgBack7-5 {
+	position: absolute;
+	top: 15%;
+	left: 0;
+	width: 100%;
+	opacity: 0.4;
+}
+
+#imgBack8 {
+	position: absolute;
+	top: 15%;
+	left: 0;
+	width: 100%;
+	opacity: 0.9;
+}
+
+#imgBack9 {
+	position: absolute;
+	top: 20%;
+	left: 0;
+	width: 100%;
+	opacity: 0.1;
+}
+
+#imgBack9-5 {
+	position: absolute;
+	top: 20%;
+	left: 0;
+	width: 100%;
+	opacity: 0.0;
+}
+
+#imgBack10 {
+	position: absolute;
+	top: 25%;
+	left: 0;
+	width: 100%;
+	opacity: 0.4;
+}
+
+#imgBack10-5 {
+	position: absolute;
+	top: 25%;
+	left: 0;
+	width: 100%;
+	opacity: 0.7;
+}
+
+#imgBack11 {
+	position: absolute;
+	top: 30%;
+	left: 0;
+	width: 100%;
+	opacity: 0.5;
+}
+
+#imgBack11-5 {
+	position: absolute;
+	top: 30%;
+	left: 0;
+	width: 100%;
+	opacity: 1.0;
+}
+
+#imgBack12 {
+	position: absolute;
+	top: 35%;
+	left: 0;
+	width: 100%;
+	opacity: 0.3;
+}
+
+#quickIcon {
+	/* text-align: left; */
+	/* background-color: rgba(168, 168, 219, 0.35); */
+	/* padding-left: 2%; */
+	display: grid;
+	grid-template-columns: 25% 50%;
+	position: relative;
+	color:#f0f1f5;
+}
+
+#quickIcon span {
+	margin: auto 0.3%;	
+	/* height: 100%; */
+}
+
+#quickIcon #countdown {
+	font-size: 0.6em;
+	/* text-align: center; */
+}
+
+#quickcontact a, #quickcontact a:visited {
+	color:#fff;
+}
+
+#quickIcon #simpleEmail {
+	font-size: 0.6em;
+}
+
+#firstScreen {
+	background-image: url("Animation2021_HQ.png");
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+#title {
+	font-size: 1.4em;
+	height: 100vh;
+	margin: 0;
+	padding: 12% 0 1%;
+
+	/* color: #d1d3e3; */
+}
+
+.titleMatchDayBackground {
+	/* background-color: rgba(168, 168, 219, 0.35); */
+}
+
+.titleMatchNightBackground {
+	/* background: rgb(61, 57, 83); */
+}
+
+#title h1 {
+	/* padding-top: 11%; */
+	margin-bottom: 3%;
+}
+
+
+#milestones {
+	border-radius: 1.0em;
+	margin: 5% 0;
+	/* padding: 0.2% 0; */
+	padding: 1%;
+	font-size: 1.8em;
+	font-family: "Playfair Display", 'serif';
+	font-weight: 300;
+	/* z-index: 2000; */
+}
+
+.milestonesDayBoxColor {
+	background-color: rgb(255, 255, 255);
+}
+
+.milestonesNightBoxColor {
+	background-color: rgba(255, 255, 255, 0.15);
+	/* background-color: rgba(93, 90, 112, 0.8); */
+}
+
+
+#milestonesdiv {
+	padding: 11%;
+	padding-top:0.2%;
+	position: relative;
+	z-index: 1;
+}
+
+#milestones p {
+	padding: 0 4%;
+}
+
+
+#milestones span {
+	font-size: 2.5em;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#milestones p:nth-of-type(1) {
+	margin-bottom: 0.5%;
+}
+
+#milestones p:nth-of-type(2) {
+	margin-top: 0.5%;
+}
+
+/* #about {
+	display: grid;
+	grid-template-columns: 45% 55%;
+	margin-bottom: 8%;
+	position: relative;
+} */
+
+#about {
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 45% 55%;
+	    grid-template-columns: 45% 55%;
+	margin-bottom: 8%;
+	position: relative;
+}
+
+#about #aboutUs {
+	text-align: left;
+	padding-top: 15%;
+	padding-left: 14%;
+	padding-right: 2%;
+	/* width: 38%; */
+	/* margin: auto; */
+}
+
+/* #about #help {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding-top: 0;
+	width: 90%;
+	margin: auto;
+	text-transform: uppercase;
+} */
+
+#about #help {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	/* grid-template-rows: 40% 40%; */
+	padding: 0;
+	width: 90%;
+	margin: auto;
+	margin-top: 0;
+
+	text-transform: uppercase;
+}
+
+#help span{
+	width: 75%;
+	padding: 1%;
+	margin: 10% auto;
+	border-radius: 0.3em;
+	/* vertical-align: middle; */
+}
+
+#help .row {
+	/* width: 60%; */
+}
+
+#help span {
+	/* width: 55%; */
+	/* margin: auto; */
+}
+
+#help .helpIcon {
+	/* width: 100%; */
+}
+
+#about #help .helpBox {
+	/* margin: 5% 10%; */
+	/* padding: 1%; */
+	/* border-radius: 0.5em; */
+	/* display: block; */
+	/* vertical-align: middle; */
+}
+
+#about #help .grow {
+	/* height: 100%; */
+	/* padding: 1%; */
+	/* heigh: 80%; */
+	/* margin: auto; */
+}
+
+#about #help a {
+	/* height: 100%; */
+	/* width: 100%; */
+}
+
+#about #help img {
+	padding: 4%;
+	/* margin: 4%; */
+	/* text-align: center; */
+	/* margin: auto; */
+	/* margin-top: auto; */
+	/* position: relative; */
+	/* vertical-align: middle; */
+}
+
+#about #help #workshop {
+	/* height: 65%; */
+	padding-top: 10%;
+}
+
+.helpBoxDayBackground {
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+.helpBoxNightBackground {
+	background-color: rgba(255, 255, 255, 0.05);
+	opacity: 70%;
+}
+
+#about #help div {
+	/* width: 60%; */
+	/* height: 90%; */
+	/* margin: 8% auto; */
+	/* padding: 7%; */
+	/* width: 80%; */
+	/* height: 80%; */
+	/* margin: auto; */
+}
+
+#about #help p {
+	margin: 5% 0;
+	/* font-size: 100%; */
+}
+
+#barbQuote {
+	color: #adb0c7;
+}
+
+#stats {
+	width: 100%;
+	margin-bottom: 12%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-top: 2%;
+	position: relative;
+	color: #adb0c7;
+}
+
+.statsDayTheme {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.statsNightTheme {
+	background-color: rgba(0,0,0,0.1);
+	color: rgb(150,150,165);
+}
+
+/* #stats {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-top: 2%;
+} */
+
+/* #stats .row {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	width: 100%;
+	padding: 1% 0;
+	/* font-size: 0.8em; */
+	/* height: 7em; *//*
+} */
+
+#stats .row {
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 25% 25% 25% 25%;
+	    grid-template-columns: 25% 25% 25% 25%;
+	width: 100%;
+	padding: 1% 0;
+	/* font-size: 0.8em; */
+	/* height: 7em; */
+}
+
+#stats div {
+	width: 85%;
+	/* has to be px b/c some have 2 some have 3 lines and makes diff height */
+	/* height: 200px;  */
+	margin: auto;
+}
+
+#stats .column {
+	/* border: 2px solid rgba(121, 117, 122, 0.2); */
+	/* border-radius:0.4em; */
+}
+
+
+#helpOptions {
+	/* display: grid; */
+	/* grid-template-columns: 33% 33% 33%; */
+	/* grid-template-columns: 50% 50%; */
+	/* width: 80%; */
+	/* margin: auto; */
+
+	/* text-transform: uppercase; */
+}
+
+#helpOptions span {
+	/* margin: 5% 10%; */
+	/* border-radius: 0.5em; */
+	/* background-color: rgba(255, 255, 255, 0.8); */
+	/* border: 0.5px solid #9C9FB7; */
+}
+
+#helpOptions div {
+	/* width: 40%; */
+	/* height: 90%; */
+	/* margin: 8% auto; */
+	/* padding: 7%; */
+	/* width: 80%; */
+	/* height: 80%; */
+	/* margin: auto; */
+}
+
+#helpOptions p {
+	/* margin: 5% 0; */
+}
+
+/* .row {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: auto;
+} */
+
+.row {
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 50% 50%;
+	    grid-template-columns: 50% 50%;
+	margin: auto;
+}
+
+#FAQ {
+	position: relative;
+}
+
+#FAQ .row {
+	text-align: left;
+	width: 90%;
+} 
+
+.box {
+	/*max-wdith: */
+   /* not doing anything*/
+	/*height: 20%;*/
+
+   /*width: 80%;*/
+   /*margin: auto 2%;*/
+   padding: 0 6%;	
+
+   font-size: 0.9em;
+}
+
+.question {
+	font-family: 'Playfair Display', 'serif';
+    font-size: 1.05em;
+  	font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ans {
+	font-weight: 300;
+}
+
+#organizers {
+	width: 75%;
+	padding: 1% 1% 3%;
+	margin: 10% auto;
+	border-radius: 0.3em;
+}
+
+.dayOrganizersBackground {
+	background-color: rgba(255,255,255,0.4);
+}
+
+.nightOrganizersBackground {
+	background-color: rgba(255,255,255,0.15);
+}
+
+#organizers .row {
+	width: 60%;
+}
+
+#organizers span {
+	width: 55%;
+	margin: auto;
+}
+
+#organizers .organizerIcon {
+	width: 100%;
+}
+
+/* circle makes it look larger */
+#organizers #wincIcon {
+	width: 70%;
+}
+
+#sponsors {
+	width: 75%;
+	padding: 1% 1% 3%;
+	margin: 10% auto;
+	border-radius: 0.3em;
+	position: relative;
+}
+
+.daySponsorsBackground {
+	background-color: rgba(255,255,255,0.4);
+}
+
+.nightSponsorsBackground {
+	background-color: rgba(255,255,255,0.2);
+}
+
+#sponsors .row {
+	/* for when there are more sponsors */
+	grid-template-columns: 33% 33% 33%;
+
+	margin-top: 5%;
+}
+
+#sponsors span {
+	padding: 10%;
+	display: -webkit-flex;
+	display: flex;
+}
+
+#sponsors a {
+	width: 45%;
+	margin: auto;
+	display: -webkit-flex;
+	align-items: flex-start;
+	/* display:flex; */
+	/* justify-content: center; */
+	/* align-items: center; */
+	/* padding: 7%; */
+}
+
+#sponsors .sponsorIcon {
+	width: 100%;
+}
+
+#committee{
+	width: 80%;
+	margin: auto;
+	padding-bottom: 6%;
+}
+
+#committee .row {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+
+/* table{
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 7%;
+} */
+
+/* th, td {
+	padding: 15px;
+	text-align: left;
+  } */
+
+.buttonCom {
+	background-color: #ffffff; 
+	opacity:0.3;
+	border: none;
+	border-radius: 8px;
+	color:#262733;
+	padding: 3% 2%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 0.8em;
+	font-family: 'Lora', serif;
+	font-weight: normal;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	width: 90%;
+	margin: auto;
+}
+
+#committee .buttonCom:active, .buttonCom:focus {
+	outline-width: 0;
+}
+
+#committee span {
+	height: 100%;
+}
+  
+.buttonCom:hover {
+	background-color: #7e6983;
+	color: #ffffff;
+}
+
+#team {
+	position: relative;
+}
+
+#team .row {
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	margin: auto;
+	width: 70%;
+}
+
+#team span {
+	margin: auto;
+	height: 100%;
+	width: 100%;
+}
+
+#team .picrew {
+	border-radius: 50%;
+	width: 125px;
+	height: 125px;
+	border: 3px solid white;
+}
+
+#team span img:nth-of-type(1) {
+	/* border: 3px solid black; */
+}
+
+#team h6 {
+	margin-top: 0;
+}
+
+#socialMedia {
+	width: 100%;
+	margin: 0;
+	padding: 3% 0 1%;
+}
+
+.daySocialMediaColor {
+	color: #888a99;
+}
+
+.nightSocialMediaColor {
+	color: #fff;
+}
+
+.daySocialMediaBackground {
+	/* background-color: rgba(255, 255, 255, 0.5); */
+	background: url("day-mountains.png");
+	opacity: 1;
+	background-size: cover;
+}
+
+.nightSocialMediaBackground {
+	/* background-color: rgba(255, 255, 255, 0.25); */
+	background: url("mountains_only.png");
+	opacity: 0.4;
+	background-size: cover;
+}
+
+#socialMedia #email {
+	font-size: 0.6em;
+	padding-bottom: 2%;
+	/* color: #9c9ca8; */
+}
+
+/* Tooltip container */
+.tooltip {
+	position: relative;
+	display: inline-block;
+  }
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 40%;
+	background-color: #040407;
+	color: #fff;
+	text-align: center;
+	font-size: 0.75em;
+	border-radius: 0.5em;
+	padding: 2% 0;
+	position: absolute;
+	z-index: 1;
+	top: -1%;
+	left: 102%;
+
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+.tooltip .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-top: -5%;
+	border-width: 0.4em;
+	border-style: solid;
+	border-color: transparent #9C9FB7 transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+}
+
+#socialMedia a {
+	padding: 0 1.5%;
+}
+
+
+#socialMedia h6 {
+	margin-top: 1%;
+	margin-bottom: 0;
+}
+
+#socialMedia #copyright {
+	font-size: 0.5em;
+	margin-top: 0.5%;
+	margin-bottom: 0;
+}
+
+/*CSS for making website adabtable*/
+@viewport {
+	width: device-width;
+	zoom: 1.0;
+}
+
+@media only screen and (max-width: 1024px) {
+	body {
+		font-size: 18px;
+	}
+
+	#title {
+		padding: 20% 0 1%;
+	}
+
+	#quickIcon #simpleEmail {
+		display: none;
+	}
+
+	#cloud0-5 {
+		width: 25%;
+		animation: MoveUpDown0-5 10s linear infinite;
+		position: absolute;
+		left: 35%;
+		top: -10%;
+		opacity: 0.35;
+	}
+	  
+	@keyframes MoveUpDown0-5 {
+		0%, 100% { top: -15%; left: 36% }
+		50% { top: -13%; left: 31%; }
+	}
+	
+	#cloud0-6 {
+		width: 15%;
+		animation: MoveUpDown0-6 8s linear infinite;
+		position: absolute;
+		left: 15%;
+		top: -10%;
+		opacity: 0.45;
+	}
+	  
+	@keyframes MoveUpDown0-6 {
+		0%, 100% { top: -7%; left: 16% }
+		50% { top: -10%; left: 23%; }
+	}
+
+	#cloud1 {
+		/* width: 15%; */
+		animation: MoveUpDown1 11s linear infinite;
+		position: absolute;
+		left: 70%;
+		top: 30%;
+		opacity: 0.2;
+	}
+	  
+	@keyframes MoveUpDown1 {
+		0%, 100% { top: 34%; left: 67% }
+		50% { top: 36%; left: 69%; }
+	}
+
+	#cloud2 {
+		animation: MoveUpDown2 15s linear infinite;
+		position: absolute;
+		left: 40%;
+		top: 100%;
+		opacity: 0.22;
+	}
+	  
+	@keyframes MoveUpDown2 {
+		0%, 100% { top: 97%; left: 40%}
+		50% { top: 100%; left: 37%; }
+	}
+	
+	  #cloud3 {
+		animation: MoveUpDown3 12s linear infinite;
+		position: absolute;
+		left: 60%;
+		top: 89%;
+		opacity: 0.3;
+	  }
+	   
+	  @keyframes MoveUpDown3 {
+		0%, 100% { top: 88%; left: 57%}
+		50% { top: 91%; left: 62%; }
+	  }
+
+
+	/* #title {
+		padding: 20% 0 1%;
+	} */
+	  
+	#about {
+		display: block;
+	}
+
+	#about #aboutUs {
+		margin: 6%;
+		padding: 0;
+		text-align: center;
+	}
+
+	#stats .row {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		width: 100%;
+		padding: 1% 0;
+	}
+	
+	#stats div {
+		width: 85%;
+		/* has to be px b/c some have 2 some have 3 lines and makes diff height */
+		/* height: 200px;  */
+		margin: auto;
+	}
+
+	#committee .row {
+		display: grid;
+		grid-template-columns: 100%;
+		width: 60%;
+	}
+	
+	#team .row {
+		display: grid;
+		grid-template-columns: 33.3% 33.3% 33.3%;
+		margin: auto;
+		width: 80%;
+	}
+
+	#team .picrew {
+		width: 100px;
+		height: 100px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+
+	#balloonB {
+		animation: MoveBalloonB 19s linear infinite;
+		position: absolute;
+		-webkit-transform: scaleX(-1);
+		  transform: scaleX(-1);
+		left: 85%;
+		top: 21%;
+		width: 15%;
+		/* opacity: 0.6; */
+	}
+	  @keyframes MoveBalloonB {
+		0%, 100% { top: 6%; left: 4%}
+		50% { top: 4%; left: 8%; }
+	}
+	
+	#balloonC {
+		animation: MoveBalloonC 19s linear infinite;
+		position: absolute;
+		left: 85%;
+		top: 21%;
+		width: 14%
+		/* opacity: 1; */
+	}
+	@keyframes MoveBalloonC {
+		0%, 100% { top: 46%; left: 73%}
+		50% { top: 49%; left: 70%; }
+	}
+
+	#whale_girl{
+		animation: whale_girl 19s linear infinite;
+		position: absolute;
+		left: 85%;
+		top: 21%;
+		width: 65%;
+	  }
+	  @keyframes whale_girl {
+		0%, 100% { top: 49%; left: 10%}
+		50% { top: 51%; left: 16%; }
+	  }
+	
+	  #crane1 {
+		animation: crane1 7s linear infinite;
+		position: absolute;
+		opacity: 0.8;
+		left: 85%;
+		top: 21%;
+	  }
+	  @keyframes crane1 {
+		0%, 100% { top: 5.5%; left: 64%}
+		50% { top: 6.5%; left: 62%; }
+	  }
+	
+	  #crane2 {
+		animation: crane2 7s linear infinite;
+		position: absolute;
+		opacity: 0.8;
+		left: 85%;
+		top: 21%;
+	  }
+	  @keyframes crane2 {
+		0%, 100% { top: 7%; left: 66%}
+		50% { top: 8%; left: 64%; }
+	  }
+	
+	  #crane3 {
+		animation: crane3 7s linear infinite;
+		position: absolute;
+		opacity: 0.8;
+		left: 85%;
+		top: 21%;
+	  }
+	  @keyframes crane3 {
+		0%, 100% { top: 8.5%; left: 68%}
+		50% { top: 9.5%; left: 66%; }
+	  }
+	
+	  #crane4 {
+		animation: crane4 7s linear infinite;
+		position: absolute;
+		opacity: 0.8;
+		left: 85%;
+		top: 21%;
+	  }
+	  @keyframes crane4 {
+		0%, 100% { top: 10%; left: 66%}
+		50% { top: 11%; left: 64%; }
+	  }
+	
+	  #crane5 {
+		animation: crane5 7s linear infinite;
+		position: absolute;
+		opacity: 0.8;
+		left: 85%;
+		top: 21%;
+	  }
+	  @keyframes crane5 {
+		0%, 100% { top: 11.5%; left: 64%}
+		50% { top: 12.5%; left: 62%; }
+	  }
+
+	  
+  #wheelchair_balloon {
+	animation: wheelchair_balloon 21s linear infinite;
+	position: absolute;
+	left: 85%;
+	top: 61%;
+	width: 12%;
+	/* opacity: ; */
+  }
+  @keyframes wheelchair_balloon {
+	0%, 100% { top: 10%; left: 79%}
+	50% { top: 14%; left: 82%; }
+  }
+
+  #belltower {
+	  opacity: 0;
+  }
+
+  #cloudG {
+	animation: MoveUpDownG 19s linear infinite;
+	position: absolute;
+	left: 35%;
+	top: 135%;
+	opacity: 0.15;
+  }
+  
+  @keyframes MoveUpDownG {
+	0%, 100% { top: 135%; left: 35%}
+	50% { top: 133%; left: 38%; }
+  }
+
+  #cloudH {
+	animation: MoveUpDownH 12s linear infinite;
+	position: absolute;
+	left: 65%;
+	top: 80%;
+	opacity: 0.4;
+  }
+  
+  @keyframes MoveUpDownH {
+	0%, 100% { top: 91%; left: 68%}
+	50% { top: 95%; left: 66%; }
+  }
+  
+  #cloudI {
+	animation: MoveUpDownI 11s linear infinite;
+	position: absolute;
+	left: 7%;
+	top: 100%;
+	opacity: 0.7;
+	width: 45%
+  }
+  
+  @keyframes MoveUpDownI {
+	0%, 100% { top: 87%; left: -2%}
+	50% { top: 90%; left: -4%; }
+  }
+
+  #cloudJ {
+	animation: MoveUpDownJ 9s linear infinite;
+	position: absolute;
+	left: -5%;
+	top: 80%;
+	opacity: 0.55;
+  }
+  
+  @keyframes MoveUpDownJ {
+	0%, 100% { top: 86%; left: 1%}
+	50% { top: 90%; left: 3%; }
+  }
+
+  #cloudK {
+	animation: MoveUpDownK 15s linear infinite;
+	position: absolute;
+	left: 42%;
+	top: -3%;
+	opacity: 0.6;
+	height: 7%;
+	width: 23%;
+  }
+  
+  @keyframes MoveUpDownK {
+	0%, 100% { top: 92%; left: 23%}
+	50% { top: 90%; left: 24%; }
+  }
+
+
+  #cloudL{
+	animation: MoveUpDownL 17s linear infinite;
+	position: absolute;
+	left: 2%;
+	top: -2%;
+	opacity: 0.6;
+  }
+  
+  @keyframes MoveUpDownL {
+	0%, 100% { top: 85%; left: -1%}
+	50% { top: 86%; left: -2%; }
+  }
+  
+ #cloudM{
+	animation: MoveUpDownM 17s linear infinite;
+	position: absolute;
+	left: 2%;
+	top: -2%;
+	opacity: 0.6;
+	width: 15%;
+  }
+  
+  @keyframes MoveUpDownM {
+	0%, 100% { top: 85%; left: 18%}
+	50% { top: 82%; left: 15%; }
+  }
+
+  #cloudN{
+	animation: MoveUpDownN 17s linear infinite;
+	position: absolute;
+	left: 2%;
+	top: -2%;
+	opacity: 0.6;
+	height: 6%;
+	width: 20%;
+  }
+  
+  @keyframes MoveUpDownN {
+	0%, 100% { top: 89%; left: 33%}
+	50% { top: 88%; left: 30%; }
+  }
+
+  #cloud5 {
+	animation: MoveUpDown5 9s linear infinite;
+	position: absolute;
+	left: 70%;
+	top: -1%;
+	opacity: 0.7;
+  }
+  
+  @keyframes MoveUpDown5 {
+	0%, 100% { top: -39%; left: 72%}
+	50% { top: -36%; left: 69%; }
+  }
+
+  /* @keyframes MoveUpDown5 {
+	0%, 100% { top: 112%; left: 72%}
+	50% { top: 116%; left: 68%; }
+  } */
+
+  #cloud5-5 {
+	animation: MoveUpDown5-5 14s linear infinite;
+	position: absolute;
+	left: 55%;
+	top: 0%;
+	opacity: 0.55;
+	width: 40%;
+  }
+  
+  @keyframes MoveUpDown5-5 {
+	0%, 100% { top: -38%; left: 61%}
+	50% { top: -34%; left: 63%; }
+  }
+
+  #cloud5-6 {
+	animation: MoveUpDown5-6 7s linear infinite;
+	position: absolute;
+	left: 42%;
+	top: -3%;
+	opacity: 0.3;
+  }
+  
+  @keyframes MoveUpDown5-6 {
+	0%, 100% { top: -45%; left: 60%}
+	50% { top: -42%; left: 64%; }
+  }
+  
+  #cloud5-7 {
+	animation: MoveUpDown5-7 17s linear infinite;
+	position: absolute;
+	left: 2%;
+	top: -2%;
+	opacity: 0.6;
+  }
+  
+  @keyframes MoveUpDown5-7 {
+	0%, 100% { top: -41%; left: 73%}
+	50% { top: -39%; left: 76%; }
+  }
+
+  #cloud5-8 {
+	animation: MoveUpDown5-8 14s linear infinite;
+	position: absolute;
+	left: 55%;
+	top: 0%;
+	opacity: 0.8;
+  }
+  
+  @keyframes MoveUpDown5-8 {
+	0%, 100% { top: -44%; left: 93%}
+	50% { top: -42%; left: 89%; }
+  }
+
+  /* @keyframes MoveUpDown5-5 {
+	0%, 100% { top: 118%; left: 49%}
+	50% { top: 116%; left: 53%; }
+  } */
+
+  #cloud5-9 {
+	animation: MoveUpDown5-9 7s linear infinite;
+	position: absolute;
+	left: 42%;
+	top: -3%;
+	opacity: 0.65;
+  }
+  
+  @keyframes MoveUpDown5-9 {
+	0%, 100% { top: -37%; left: 82%}
+	50% { top: -43%; left: 85%; }
+  }
+
+  /* @keyframes MoveUpDown5-6 {
+	0%, 100% { top: 114%; left: 38%}
+	50% { top: 110%; left: 42%; }
+  } */
+  
+  #cloud5-10 {
+	animation: MoveUpDown5-10 17s linear infinite;
+	position: absolute;
+	left: 37%;
+	top: -1%;
+	opacity: 0.7;
+  }
+  
+  @keyframes MoveUpDown5-10 {
+	0%, 100% { top: -36%; left: 0%}
+	50% { top: -34%; left: -4%; }
+  }
+  
+	body {
+		font-size: 16px;
+	}
+
+	#title {
+		padding: 35% 0 1%;
+	}
+
+	#quickIcon {
+		display: none;
+	}
+
+	#mlhTag {
+		max-width: 6.5%;
+		min-width: 5%;
+	}
+
+	#balloon03 {
+		opacity: 0.3;
+	}
+
+	#balloon04 {
+		animation: MoveBalloon04 19s linear infinite;
+		position: absolute;
+		left: 12%;
+		top: 50%;
+		opacity: 0.3;
+	}
+	  
+	@keyframes MoveBalloon04 {
+		0%, 100% { top: 53%; left: 7%}
+		50% { top: 48%; left: 10%; }
+	}
+
+	#milestones {
+		font-size: 1.5em;
+	}
+
+	#about {
+		display: block;
+	}
+
+	#about #aboutUs {
+		margin: 6%;
+		padding: 0;
+		text-align: center;
+	}
+
+	#FAQ .row {
+		grid-template-columns: 100%;
+		text-align: left;
+		width: 90%;
+	} 
+
+	#organizers .row {
+		width: 70%;
+	}
+
+	#sponsors .row {
+		grid-template-columns: 50% 50%;
+		margin-top: 5%;
+	}
+
+	#committee .row {
+		width: 80%;
+	}
+	
+	#team .row {
+		display: grid;
+		grid-template-columns: 33.3% 33.3% 33.3%;
+		margin: auto;
+		width: 85%;
+	}
+
+	#team .picrew {
+		width: 80px;
+		height: 80px;
+	}
+
+	#socialMedia a {
+		padding: 0 3%;
+		font-size: 1.5em;	
+	}
+
+	#socialMedia h6 {
+		font-size: 0.8em;
+		/* color: #040407; */
+	}
+	
+	#socialMedia #copyright {
+		font-size: 0.6em;
+		/* color: #040407; */
+	}
+}
