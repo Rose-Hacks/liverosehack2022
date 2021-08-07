@@ -12,7 +12,7 @@
 
 .animationDayBackground {
 	/* background-color: #585675; */
-	background-color: #3F3466;
+	background-color: #d2f1e4;
 	/* background-color: white; */
 	/* background: linear-gradient(rgb(137, 182, 207),rgb(166, 186, 215),rgb(174, 188, 217),rgb(203, 198, 210),rgb(235, 209, 202),rgb(250, 223, 192),rgb(254, 242, 210),rgb(254, 242, 210),rgb(254, 242, 210)); */
 }
@@ -53,7 +53,7 @@ body {
 	/* margin-top: 20%; */
     
     /* height: 100vh; */
-	background-color: #585675;
+	background-color: #d2f1e4;
 	/*careful, may mess up elsewhere*/
 	/* overflow-y: hidden; */
 	
@@ -81,21 +81,21 @@ body::-webkit-scrollbar {
 	font-family: 'Lora', serif;
 } */
 .gray {
-	background-color: #a8acce;
+	background-color: #d2f1e4;
 }
 .yellow {
-	background-color: #7570A6;
+	background-color: #d2f1e4;
 }
 .navbar-custom .navbar-brand, 
 .navbar-custom .navbar-text { 
-    color: #bdc0d1; 
+    color: #d2f1e4; 
 } 
 .navbar-custom .navbar-brand {
 	font-weight: bold;
 }
 .navbar-custom .navbar-brand:visited, 
 .navbar-custom .navbar-text:visited {
-	color: #bdc0d1;
+	color: #d2f1e4;
 }
 
 .navbar-custom .navbar-brand:hover {
@@ -107,7 +107,7 @@ body::-webkit-scrollbar {
 .header {
 	padding: 10% 0 1%;
     font-family: alvania, 'serif';
-    color: #9C9FB7;
+    color: #d2f1e4;
     text-align: center;
     font-size: 2rem;
 }
