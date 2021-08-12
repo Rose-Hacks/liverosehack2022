@@ -81,14 +81,14 @@ body::-webkit-scrollbar {
 	font-family: 'Lora', serif;
 } */
 .gray {
-	background-color: #d2f1e4;
+	background-color: #d67667;
 }
 .yellow {
-	background-color: #d2f1e4;
+	background-color: #d67667;
 }
 .navbar-custom .navbar-brand, 
 .navbar-custom .navbar-text { 
-    color: #d2f1e4; 
+    color: #d67667; 
 } 
 .navbar-custom .navbar-brand {
 	font-weight: bold;
