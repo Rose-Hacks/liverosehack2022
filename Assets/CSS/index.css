@@ -84,8 +84,9 @@ body::-webkit-scrollbar {
 	background-color: #d67667;
 }
 .yellow {
-	background-color: #d67667;
+	background-color: #fdeda7;
 }
+
 .navbar-custom .navbar-brand, 
 .navbar-custom .navbar-text { 
     color: #d67667; 
@@ -93,7 +94,7 @@ body::-webkit-scrollbar {
 .navbar-custom .navbar-brand {
 	font-weight: bold;
 }
-.navbar-custom .navbar-brand:visited, 
+.navbar-custom, 
 .navbar-custom .navbar-text:visited {
 	color: #d2f1e4;
 }
@@ -107,7 +108,7 @@ body::-webkit-scrollbar {
 .header {
 	padding: 10% 0 1%;
     font-family: alvania, 'serif';
-    color: #d2f1e4;
+    color: #d67667;
     text-align: center;
     font-size: 2rem;
 }
@@ -377,7 +378,7 @@ nav span a:hover {
 }
 
 #countdown {
-	color: #9C9FB7;
+	color: #d67667;
 	text-align: center;
 	font-size: 2rem;
 	font-family: 'alvania';
