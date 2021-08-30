@@ -118,14 +118,14 @@ body::-webkit-scrollbar {
 }
 .header {
 	padding: 10% 0 1%;
-    font-family: alvania, 'serif';
+    font-family: 'Harlow Solid Regular', cursive;
     color: #d67667;
     text-align: center;
     font-size: 2rem;
 }
 
 #message {
-	font-family: alvania, 'serif';
+    font-family: 'Poppins', sans-serif;
     color: #9C9FB7;
 	text-align: center;
 	padding: 1.5%;
