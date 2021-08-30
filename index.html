@@ -104,15 +104,19 @@
 	
 		<div id="countdown">
 			<span class="timer">
-				<span id="hourTimer">**</span>
+				<span id="dayTimer"></span>
+				<span class="timeUnit">Days</span>
+			</span>
+			<span class="timer">
+				<span id="hourTimer"></span>
 				<span class="timeUnit">Hrs</span>
 			</span>
 			<span class="timer">
-				<span id="minTimer">**</span>
+				<span id="minTimer"></span>
 				<span class="timeUnit">Min</span>
 			</span>
 			<span class="timer">
-				<span id="secTimer">**</span>
+				<span id="secTimer"></span>
 				<span class="timeUnit">Sec</span>
 			</span>
 		</div>
@@ -130,5 +134,33 @@
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script><script type="text/javascript" src="Assets/JS/index.js"></script>
+	<script>
+		var countDownDate = new Date("Jan 15, 2022 00:00:00").getTime();
+		
+		var x = setInterval(function() {
+		
+		  var now = new Date().getTime();
+		
+		  var distance = countDownDate - now;
+		
+		  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+		  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+		
+		  document.getElementById("dayTimer").innerHTML = days + " ";
+		  document.getElementById("hourTimer").innerHTML = hours + " ";
+		  document.getElementById("minTimer").innerHTML = minutes + " ";
+		  document.getElementById("secTimer").innerHTML = seconds + " ";	
+
+		  if (distance < 0) {
+			clearInterval(x);
+			document.getElementById("dayTimer").innerHTML = "**";
+		  	document.getElementById("hourTimer").innerHTML = "**";
+		  	document.getElementById("minTimer").innerHTML = "**";
+		  	document.getElementById("secTimer").innerHTML = "**";
+		  }
+		}, 1000);
+		</script>
 </body>
 </html>

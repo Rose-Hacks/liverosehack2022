@@ -312,7 +312,7 @@ nav span a:hover {
 }
 
 #sponsors span {
-	margin: 10%;
+	margin: 10% 0%;
 	display: -webkit-flex;
 	display: flex;
 	align-items: center;
@@ -389,7 +389,7 @@ nav span a:hover {
 	width: 65%;
 	margin: auto;
 	display: grid;
-	grid-template-columns: 33% 33% 33%;
+	grid-template-columns: 25% 25% 25% 25%;
 }
 a {
 	color: #bdc0d1;
