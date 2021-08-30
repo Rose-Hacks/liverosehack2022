@@ -312,11 +312,13 @@ nav span a:hover {
 }
 
 #sponsors span {
-	padding: 10%;
+	margin: 10%;
 	display: -webkit-flex;
 	display: flex;
 	align-items: center;
-	width: 70%;s
+	justify-content: center;
+	width: 100%;
+	
 }
 
 #sponsors a {
@@ -487,10 +489,6 @@ span .navbar-toggler-icon {
 	/* margin-top: 5%; */
 }
 
-#sponsors span {
-	align-items: center;
-	justify-content: center;
-}
 
 #sponsors a {
 	width: 45%;
