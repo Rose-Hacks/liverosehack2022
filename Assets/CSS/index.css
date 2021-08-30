@@ -87,7 +87,7 @@ body::-webkit-scrollbar {
 	font-family: 'Lora', serif;
 } */
 .gray {
-	background-color: #d67667;
+	background-color: #f3585e;
 }
 .yellow {
 	background-color: #fdeda7;
@@ -95,7 +95,7 @@ body::-webkit-scrollbar {
 
 .navbar-custom .navbar-brand, 
 .navbar-custom .navbar-text { 
-    color: #d67667; 
+    color: #f3585e; 
 } 
 .navbar-custom .navbar-brand {
 	font-weight: bold;
@@ -114,7 +114,7 @@ body::-webkit-scrollbar {
 .header {
 	padding: 5% 0 1%;
     font-family: 'Harlow Solid Regular', cursive;
-    color: #d67667;
+    color: #f3585e;
     text-align: center;
     font-size: 2rem;
 }
@@ -185,7 +185,7 @@ nav span a:hover {
 	margin: auto;
 }
 .resource-headers{
-	color: #d67667;
+	color: #f3585e;
 	font-family: 'Harlow Solid Regular', cursive;
 	padding-bottom: 2%;
 }
@@ -202,9 +202,9 @@ nav span a:hover {
    margin-bottom:5%;
    padding-top:5%; */
    background-color: #fdeda7; 
-	border: solid 5px #d67667;
+	border: solid 5px #f3585e;
 	border-radius: 5px;
-	color: #d67667;
+	color: #f3585e;
 	padding: 1% 2%;
 	text-align: center;
 	text-decoration: none;
@@ -225,7 +225,7 @@ nav span a:hover {
 
 
 #FAQ .button:hover{
-	background-color: #d67667;
+	background-color: #f3585e;
 	color: #fdeda7;
 	border-color: #fdeda7;
 	opacity: 1;
@@ -254,8 +254,8 @@ nav span a:hover {
 	padding: 1% 1% 3%;
 	margin: auto;
 	margin-bottom: 2%;
-	border: solid 5px #d67667;
-	border-radius: 1.3 em;
+	border: solid 0.4em #f3585e;
+	border-radius: 1.3em;
 	position: relative;
 	background: #fdeda7;
 	/* padding: 5%; */
@@ -296,7 +296,7 @@ nav span a:hover {
 	padding: 1% 1% 3%;
 	margin: auto;
 	margin-bottom: 6%;
-	border: solid 5px #d67667;
+	border: solid 0.4em #f3585e;
 	border-radius: 1.3em;
 	position: relative;
 	background: #fdeda7;
@@ -315,6 +315,8 @@ nav span a:hover {
 	padding: 10%;
 	display: -webkit-flex;
 	display: flex;
+	align-items: center;
+	width: 70%
 }
 
 #sponsors a {
@@ -374,7 +376,7 @@ nav span a:hover {
 	text-align: center;
 	font-size: 3em;
 	font-family: 'Harlow Solid Regular', cursive;
-	color: #d67667;
+	color: #f3585e;
 }
 
 #name {
@@ -382,7 +384,7 @@ nav span a:hover {
 }
 
 #countdown {
-	color: #d67667;
+	color: #f3585e;
 	text-align: center;
 	font-size: 2rem;
 	font-family: 'alvania';
@@ -430,6 +432,7 @@ span .navbar-toggler-icon {
 .grow:hover { 
 	transform: scale(1.1); 
 	transition: all .3s linear;
+	opacity: 1;
 }
 #mlh-trust-badge {
 	/* top: 1%; */
