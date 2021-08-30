@@ -1,15 +1,25 @@
 /* need to make max-width */
 
+/*FONTS*/
 @font-face {
-	font-family: alvania;
-	src: url(Alvania.ttf);
+	font-family: 'Roboto', sans-serif;
+	src: url(Fonts/Roboto/Roboto-Regular.ttf);
+    src: url(Fonts/Roboto/Roboto-Bold.ttf)
 }
 
 @font-face {
-	font-family: lora;
-	src: url(Lora-MediumItalic.ttf);
+     font-family: 'Poppins', sans-serif;
+    src: url(Fonts/Poppins-Regular.ttf); 
 }
 
+@font-face {
+    font-family: 'harlow_solidregular';
+    src: url(Fonts/Harlow/harlow-webfont.woff2) format('woff2'),
+         url(Fonts/Harlow/harlow-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 .animationDay {
 	background: linear-gradient(rgb(137, 182, 207),rgb(166, 186, 215),rgb(174, 188, 217),rgb(203, 198, 210),rgb(235, 209, 202),rgb(250, 223, 192),rgb(254, 242, 210),rgb(254, 242, 210),rgb(254, 242, 210));
 }
@@ -1687,12 +1697,12 @@ a, a:visited {
 }
 
 #organizers .organizerIcon {
-	width: 100%;
+	width: 200%;
 }
 
 /* circle makes it look larger */
-#organizers #wincIcon {
-	width: 70%;
+ #wincIcon {
+	width: 20%;
 }
 
 #sponsors {

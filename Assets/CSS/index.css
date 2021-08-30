@@ -1,13 +1,24 @@
 /* need to make max-width */
 
+/*FONTS*/
 @font-face {
-	font-family: alvania;
-	src: url(Alvania.ttf);
+	font-family: 'Roboto', sans-serif;
+	src: url(Fonts/Roboto/Roboto-Regular.ttf);
+    src: url(Fonts/Roboto/Roboto-Bold.ttf)
 }
 
 @font-face {
-	font-family: lora;
-	src: url(Lora-Medium.ttf);
+     font-family: 'Poppins', sans-serif;
+    src: url(Fonts/Poppins-Regular.ttf); 
+}
+
+@font-face {
+    font-family: 'harlow_solidregular';
+    src: url(Fonts/Harlow/harlow-webfont.woff2) format('woff2'),
+         url(Fonts/Harlow/harlow-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 .animationDayBackground {
@@ -281,7 +292,7 @@ nav span a:hover {
 }
 
 #organizers .organizerIcon {
-	width: 100%;
+	width: 200%;
 }
 
 #sponsors {
@@ -369,7 +380,7 @@ nav span a:hover {
 #pad {
 	padding-top: 0.5%;
 }
-#sponsortitle {
+.sponsortitle {
 	padding: 5% 0 1%;
 }
 
