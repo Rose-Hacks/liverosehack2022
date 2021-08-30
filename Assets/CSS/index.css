@@ -255,9 +255,9 @@ nav span a:hover {
 	margin: auto;
 	margin-bottom: 2%;
 	border: solid 5px #d67667;
-	border-radius: 0.3em;
+	border-radius: 1.3 em;
 	position: relative;
-	background-color: #fdeda7;
+	background: #fdeda7;
 	/* padding: 5%; */
 }
 
@@ -288,7 +288,7 @@ nav span a:hover {
 }
 
 #organizers .organizerIcon {
-	width: 200%;
+	width: 100%;
 }
 
 #sponsors {
@@ -297,9 +297,9 @@ nav span a:hover {
 	margin: auto;
 	margin-bottom: 6%;
 	border: solid 5px #d67667;
-	border-radius: 0.3em;
+	border-radius: 1.3em;
 	position: relative;
-	background-color: #fdeda7;
+	background: #fdeda7;
 }
 
 #sponsors .row {
@@ -355,7 +355,7 @@ nav span a:hover {
 	
 }
 #sponsors {
-	background-color: rgba(255,255,255, 0.4);
+	background-color: #fdeda7;
 	/* padding: 5%; */
 	border-radius: 0.3em;
 }
