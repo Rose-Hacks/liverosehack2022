@@ -112,7 +112,7 @@ body::-webkit-scrollbar {
 	opacity: 0.7;
 }
 .header {
-	padding: 10% 0 1%;
+	padding: 5% 0 1%;
     font-family: 'Harlow Solid Regular', cursive;
     color: #d67667;
     text-align: center;
@@ -186,8 +186,8 @@ nav span a:hover {
 }
 .resource-headers{
 	color: #d67667;
-	font-family: 'Poppins', sans-serif;
-	margin-bottom: 10px;
+	font-family: 'Harlow Solid Regular', cursive;
+	padding-bottom: 1%;
 }
 
 #FAQ .button {
@@ -202,7 +202,6 @@ nav span a:hover {
    margin-bottom:5%;
    padding-top:5%; */
    background-color: #fdeda7; 
-	opacity: 0.3;
 	border: solid 5px #d67667;
 	border-radius: 5px;
 	color: #d67667;
