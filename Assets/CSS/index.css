@@ -184,6 +184,11 @@ nav span a:hover {
 	    grid-template-columns: 33% 34% 33%;
 	margin: auto;
 }
+.resource-headers{
+	color: #d67667;
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 10px;
+}
 
 #FAQ .button {
    /* padding: 0 6%;	
@@ -196,11 +201,11 @@ nav span a:hover {
    text-align: center;
    margin-bottom:5%;
    padding-top:5%; */
-   background-color: #fff; 
+   background-color: #fdeda7; 
 	opacity: 0.3;
-	border: none;
+	border: solid 5px #d67667;
 	border-radius: 5px;
-	color: #9878ad;
+	color: #d67667;
 	padding: 1% 2%;
 	text-align: center;
 	text-decoration: none;
@@ -208,7 +213,7 @@ nav span a:hover {
 	display: inline-block;
 	min-width: 65%;
 	font-size: 1.0em;
-	font-family: 'Lora', serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
 	transition-duration: 0.4s;
 	cursor: pointer;
@@ -228,8 +233,9 @@ nav span a:hover {
 }
 
 #FAQ .button:hover{
-	background-color: #9878ad;;
-	color:rgb(255, 255, 255);
+	background-color: #d67667;
+	color: #fdeda7;
+	border-color: #fdeda7;
 }
 
 .link {
@@ -376,7 +382,6 @@ nav span a:hover {
 	padding-top: 0.5%;
 }
 .sponsortitle {
-	padding: 5% 0 1%;
 }
 
 #name {
