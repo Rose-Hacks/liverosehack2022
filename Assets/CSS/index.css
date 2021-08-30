@@ -316,7 +316,7 @@ nav span a:hover {
 	display: -webkit-flex;
 	display: flex;
 	align-items: center;
-	width: 70%
+	width: 70%;s
 }
 
 #sponsors a {
@@ -356,11 +356,7 @@ nav span a:hover {
 .row_resources{
 	
 }
-#sponsors {
-	background-color: #fdeda7;
-	/* padding: 5%; */
-	border-radius: 0.3em;
-}
+
 
 /* #sponsors #sponsorsTable {
 	padding: 3%;
@@ -492,9 +488,8 @@ span .navbar-toggler-icon {
 }
 
 #sponsors span {
-	/* padding: 10%;
-	display: -webkit-flex;
-	display: flex; */
+	align-items: center;
+	justify-content: center;
 }
 
 #sponsors a {
