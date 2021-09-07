@@ -1,16 +1,26 @@
 /* need to make max-width */
 
 /*FONTS*/
+@font-face {
+	font-family: 'Roboto', sans-serif;
+	src: url(Fonts/Roboto/Roboto-Regular.ttf);
+    src: url(Fonts/Roboto/Roboto-Bold.ttf)
+}
 
 @font-face {
      font-family: 'Poppins', sans-serif;
-    src: url(Poppins-Regular.ttf); 
+    src: url(Fonts/Poppins-Regular.ttf); 
+}
+
+@font-face {
+    font-family: 'Yellowtail', cursive;
+	src:url(Fonts/Yellowtail/Yellowtail-Regular.ttf);
 }
 
 @font-face {
     font-family: 'harlow_solidregular';
-    src: url(Harlow/harlow-webfont.woff2) format('woff2'),
-         url(Harlow/harlow-webfont.woff) format('woff');
+    src: url(Fonts/Harlow/harlow-webfont.woff2) format('woff2'),
+         url(Fonts/Harlow/harlow-webfont.woff) format('woff');
     font-weight: normal;
     font-style: normal;
 
