@@ -97,22 +97,22 @@ body::-webkit-scrollbar {
 	font-family: 'Lora', serif;
 } */
 .gray {
-	background-color: #f3585e;
+	background-color: #fffff0;
 }
 .yellow {
-	background-color: #fdeda7;
+	background: #292E49;
 }
 
 .navbar-custom .navbar-brand, 
 .navbar-custom .navbar-text { 
-    color: #f3585e; 
+    color: #fffff0; 
 } 
 .navbar-custom .navbar-brand {
 	font-weight: bold;
 }
 .navbar-custom, 
 .navbar-custom .navbar-text:visited {
-	color: #d2f1e4;
+	color: #fffff0;
 }
 
 .navbar-custom .navbar-brand:hover {
@@ -260,14 +260,16 @@ nav span a:hover {
 	/* margin-left:6.5%; */
 }
 #organizers {
-	width: 75%;
-	padding: 1% 1% 3%;
-	margin: auto;
-	margin-bottom: 2%;
-	border: solid 0.4em #f3585e;
+	width: 85%;
+	padding: 0.5% 0.5% 1%;
+	/* margin: auto; */
+	margin-bottom: 8%;
+	margin-left:7%;
+	margin-top: 10%;
+	/* border: solid 0.4em #f3585e; */
 	border-radius: 1.3em;
 	position: relative;
-	background: #fdeda7;
+	background: #fffff0;
 	/* padding: 5%; */
 }
 
@@ -302,14 +304,14 @@ nav span a:hover {
 }
 
 #sponsors {
-	width: 75%;
+	width: 85%;
 	padding: 1% 1% 3%;
 	margin: auto;
-	margin-bottom: 6%;
-	border: solid 0.4em #f3585e;
+	margin-bottom: 4%;
+	/* border: solid 0.4em #f3585e; */
 	border-radius: 1.3em;
 	position: relative;
-	background: #fdeda7;
+	background: #fffff0;
 }
 
 #sponsors .row {
@@ -341,6 +343,41 @@ nav span a:hover {
 	/* align-items: center; */
 	/* padding: 7%; */
 }
+
+#diner{
+    border-top: 2em solid #ffd97d;
+    /* background: #F5855B; */
+    border-bottom: 2.5em solid #F5855B;
+    margin-right:0;
+    margin-left:0;
+}
+
+#diner .row{
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    display:grid;
+    margin:auto;
+    /* background:#fffff0; */
+    
+}
+
+#diner .box{
+    background: linear-gradient(#FFFFF0 50%, #cf704d 50%);
+}
+
+#table {
+    padding-top:25%;
+    margin-top:-55%;
+}
+
+#L_booth{
+    margin-top:-50%;
+}
+
+#R_booth{
+    margin-top:-41%;
+}
+
+
 
 #schedule {
 	width: 80%;
@@ -385,6 +422,7 @@ nav span a:hover {
 	font-size: 3em;
 	font-family: 'harlow_solidregular';
 	color: #f3585e;
+	margin-top:-8%;
 }
 
 #name {
@@ -487,28 +525,10 @@ span .navbar-toggler-icon {
 	font-size: 0.6em;
 } */
 
-#sponsors {
-	width: 75%;
-	position: relative;
-}
-
-#sponsors .row {
-	/* for when there are more sponsors */
-	/* grid-template-columns: 33% 33% 33%; */
-
-	/* margin-top: 5%; */
-}
-
-
 #sponsors a {
 	width: 45%;
 	margin: auto;
 	display: -webkit-flex;
-	/* align-items: flex-start; */
-	/* display:flex; */
-	/* justify-content: center; */
-	/* align-items: center; */
-	/* padding: 7%; */
 }
 
 #sponsors .sponsorIcon {
