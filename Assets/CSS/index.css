@@ -28,7 +28,7 @@
 
 .animationDayBackground {
 	/* background-color: #585675; */
-	background-color: #d2f1e4;
+	background-color: #ffd97d;
 	/* background-color: white; */
 	/* background: linear-gradient(rgb(137, 182, 207),rgb(166, 186, 215),rgb(174, 188, 217),rgb(203, 198, 210),rgb(235, 209, 202),rgb(250, 223, 192),rgb(254, 242, 210),rgb(254, 242, 210),rgb(254, 242, 210)); */
 }
@@ -123,7 +123,7 @@ body::-webkit-scrollbar {
 }
 .header {
 	padding: 5% 0 1%;
-    font-family: 'Harlow Solid Regular', cursive;
+    font-family: 'harlow_solidregular';
     color: #f3585e;
     text-align: center;
     font-size: 2rem;
@@ -196,7 +196,7 @@ nav span a:hover {
 }
 .resource-headers{
 	color: #f3585e;
-	font-family: 'Harlow Solid Regular', cursive;
+	font-family: 'harlow_solidregular';
 	padding-bottom: 2%;
 }
 
@@ -244,10 +244,10 @@ nav span a:hover {
 }
 
 .link {
-	font-family: 'Playfair Display', 'serif';
+	font-family: 'harlow_solidregular';
     font-size: 1.85em;
 	font-weight: bold;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 #FAQ {
@@ -383,7 +383,7 @@ nav span a:hover {
 .sponsortitle {
 	text-align: center;
 	font-size: 3em;
-	font-family: 'Harlow Solid Regular', cursive;
+	font-family: 'harlow_solidregular';
 	color: #f3585e;
 }
 
