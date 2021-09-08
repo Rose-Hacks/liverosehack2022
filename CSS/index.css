@@ -37,10 +37,10 @@
 	text-align: center;
 	background-color: #3c457a;
 	padding: 3%;
-	margin: 7% 25% 2%;
+	margin: 7% 25% 4%;
 	border-radius: 10px;
 	border: 4px solid #ffd97d;
-	box-shadow: 0px 0px 30px 10px #ffd97d;
+	box-shadow: 0px 0px 30px 5px #ffd97d;
 }
 
 #herotitle h1 {
@@ -52,8 +52,36 @@
 	font-size: 1.5em;
 	color: #ffd97d;
 }
-  
-  
+
+#countdown {
+	color: #f3585e;
+	text-align: center;
+	font-size: 2rem;
+	font-family: 'Poppins';
+	width: 100%;
+	margin: 2% 0%;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+
+#bar {
+	background-color: #3c457a;
+	width: 100%;
+	height: 20px;
+}
+
+#barstool {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+
+#barstool img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	width: 50%
+}
 
 #hero {
 	width: 88%;
@@ -421,16 +449,6 @@ nav span a:hover {
     font-size: 5rem;
 }
 
-#countdown {
-	color: #f3585e;
-	text-align: center;
-	font-size: 2rem;
-	font-family: 'alvania';
-	width: 65%;
-	margin: auto;
-	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;
-}
 a {
 	color: #bdc0d1;
 }
