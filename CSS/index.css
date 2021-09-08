@@ -28,7 +28,7 @@
 
 .animationDayBackground {
 	/* background-color: #585675; */
-	background-color: #ffd97d;
+	background: #ffd97d;
 	/* background-color: white; */
 	/* background: linear-gradient(rgb(137, 182, 207),rgb(166, 186, 215),rgb(174, 188, 217),rgb(203, 198, 210),rgb(235, 209, 202),rgb(250, 223, 192),rgb(254, 242, 210),rgb(254, 242, 210),rgb(254, 242, 210)); */
 }
@@ -41,7 +41,7 @@
     padding-left: 7%;
     /* padding-top: 7%; */
     padding-right: 7%;
-    padding-bottom:3%;
+    /* padding-bottom:3%; */
     /* color:#ffbc0a; */
     color:#e81b23;
 }
@@ -73,31 +73,18 @@
 	display: none;
 }
 body {
-	/*don't know if some components rely on the body's little margin as restrictions,
-	but footer needs to go all the way across*/
-	/* margin-top: 20%; */
-    
-    /* height: 100vh; */
-	background-color: #d2f1e4;
+	
+	background: #ffd97d;
 	max-width: 100%;
     overflow-x: hidden;
     margin:0;
-	/*careful, may mess up elsewhere*/
-	/* overflow-y: hidden; */
 	
-	/* text-align: center; */
-	/* color: #9C9FB7; */
-
-	/* min-width: 50%; */
-	/* font-family: lora; */
-	/* font-family: 'Lora', serif; */
-	/* font-weight: normal; */
-	/* font-size: 25px; */
 	letter-spacing: 0.1rem;
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
 	display: none;
+	background-color: #ffd97d;
   }
   
   /* Hide scrollbar for IE, Edge and Firefox */
@@ -109,7 +96,7 @@ body::-webkit-scrollbar {
 	font-family: 'Lora', serif;
 } */
 .gray {
-	background-color: #fffff0;
+	/* background-color: #fffff0; */
 }
 .yellow {
 	background: #292E49;
@@ -200,13 +187,14 @@ nav span a:hover {
 }
 
 /*Resources-------------------------------------------------------------------------------------------------------------------------------------------*/
+
 #body_resources{
 	background: #F9C4BC;
-	border-bottom: 12em solid #ABc2cb;
+	
 }
 
 #r_sub{
-	margin-top:4%;
+	margin-top:2%;
 }
 
 #resources .row {
@@ -220,34 +208,35 @@ nav span a:hover {
 
 #column_titles{
 	min-width:100%;
-	background: #4ac6d7; 
-	border-right: solid 0.16em #F5855B;
-	border-left: solid 0.16em #F5855B;
-	
-	color: #fffff0;
-	padding-top: 3%;
+	background: #ffd97d; 
+	/* border-right: solid 0.16em #F5855B;
+	border-left: solid 0.16em #F5855B; */
+	border-bottom:solid 1.5em rgb(189, 159, 63);
+	color: #d67667;
+	padding-top: 5%;
 	text-align: center;
 	text-decoration: none;
-	margin-bottom: 0.5%;
-	
+	/* margin-bottom: 0.5%; */
+	/* margin-right: 1%;
+	margin-left: 1%; */
 	display: inline-block;
 	min-width: 65%;
 	font-size: 1.6em;
-	font-family: 'Poppins', sans-serif;
-	text-transform: uppercase;
+    font-family: 'harlow_solidregular';
 }
 
 #column_r{
 	min-width:100%;
-	background: linear-gradient(#F5855B 60%, #cf704d 40%); 
-	border-right: solid 0.16em #fffff0;
-	border-left: solid 0.16em #fffff0;
+	/* background: #fffff0;  */
+	border: solid 0.6em #d67667;
+	color: #d67667;
+	/* margin-right: 1%;
+	margin-left: 1%; */
 	/* border-radius: 5px; */
-	color: #fffff0;
-	padding: 1% 2%;
+	padding: 3% 1% 1%;
 	text-align: center;
 	text-decoration: none;
-	margin-bottom: 0.5%;
+	/* margin-bottom: 3%; */
 	
 	display: inline-block;
 	min-width: 65%;
@@ -259,19 +248,19 @@ nav span a:hover {
 
 
 #column_r:hover{
-	background: #cf704d ;
+	background: #d67667 ;
 	color: #fffff0;
+	border: solid 0.6em #fffff0;
 	opacity: 1;
-	transform: scale(1.1); 
+	transform: scale(1.05); 
 	transition: all .3s linear;
 }
 
-.link a{
-	color: #fffff0;
+/* .link a{
+	color: #d67667;
     font-size: 1.5em;
 	font-family: 'Poppins', sans-serif;
-    /* text-transform: uppercase; */
-}
+} */
 
 #FAQ {
 	position: relative;
@@ -284,6 +273,17 @@ nav span a:hover {
     color:#f3585e;
     font-family: 'harlow_solidregular';
     text-align: center;
+}
+
+#footer_resources{
+    /* margin-top:5%; */
+    background-image: url("Assests/img/newfooter.png");
+    background-repeat: repeat-x;
+    background-size: 50% 100%;
+    /* background-size: 100% 100%; */
+  
+    /* padding-top: 4%; */
+    padding-bottom: 4%;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #sponsors {
