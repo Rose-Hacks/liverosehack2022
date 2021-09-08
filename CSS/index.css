@@ -26,25 +26,34 @@
 
 }
 
-.animationDayBackground {
-	/* background-color: #585675; */
-	background: #ffd97d;
-	/* background-color: white; */
-	/* background: linear-gradient(rgb(137, 182, 207),rgb(166, 186, 215),rgb(174, 188, 217),rgb(203, 198, 210),rgb(235, 209, 202),rgb(250, 223, 192),rgb(254, 242, 210),rgb(254, 242, 210),rgb(254, 242, 210)); */
+#indexBody {
+	background-color: #292E49;
 }
 
-.animationNightBackground {
-	/* background: rgb(61, 57, 83); */
+/* hero */
+
+#herotitle {
+	font-family: 'harlow_solidregular';
+	text-align: center;
+	background-color: #3c457a;
+	padding: 3%;
+	margin: 7% 25% 2%;
+	border-radius: 10px;
+	border: 4px solid #ffd97d;
+	box-shadow: 0px 0px 30px 10px #ffd97d;
 }
 
-.section{
-    padding-left: 7%;
-    /* padding-top: 7%; */
-    padding-right: 7%;
-    /* padding-bottom:3%; */
-    /* color:#ffbc0a; */
-    color:#e81b23;
+#herotitle h1 {
+	font-size: 5em;
+	color: #ffd97d;
 }
+
+#herotitle h3 {
+	font-size: 1.5em;
+	color: #ffd97d;
+}
+  
+  
 
 #hero {
 	width: 88%;
