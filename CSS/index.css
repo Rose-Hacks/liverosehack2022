@@ -64,16 +64,27 @@
 	grid-template-columns: 25% 25% 25% 25%;
 }
 
+#bar_stack {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	position: relative;
+}
+
 #bartable {
+	grid-column: 5/1;
+	grid-row: 1;
+}
+
+#bartable img {
 	width: 100%;
-	z-index: 1;
+	margin-bottom: 0;
 }
 
 #barstool {
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
-	z-index: 2; 
-	top: 75%;
+	grid-column: 5/1;
+	grid-row: 1;
 }
 
 #barstool img {
@@ -81,6 +92,8 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+	height: 85%;
+	padding-top: 10%;
 }
 
 #hero {
