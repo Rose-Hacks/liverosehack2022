@@ -429,26 +429,38 @@ nav span a:hover {
     text-align: center;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.sponsorBody {
+    background: #F7AF9D;
+}
+
+.sponsor-navbar {
+	background: #94D2BD;
+}
+
 #sponsors {
-	margin-top:7%;
+	margin: 10% 10% 5%;
     background: #ffd97d;
 	padding-left: 5%;
     padding-right: 5%;
     padding-top: 3%;
     padding-bottom: 6%;
-    /* border-radius: 1em; */
-    border-top: 1.5em solid #ffd97d;
-    border-right: 1.5em solid #ffd97d;
-    border-left: 1.5em solid #ffd97d;
-    border-bottom: 2em solid #ffd97d;
-    /* border-top: 0.4em solid #ffd97d; */
-    /* box-shadow: 0 0 0 1.1em #fdeda7;  */
-    
+    border-radius: 1em; 
+}
+
+#organizer {
+	margin: 13% 10% 5%;
+    background: #ffd97d;
+	padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    border-radius: 1em; 
 }
 
 #s_sub{
     border-radius: 1em;
-    background: #fffff0;
+    background: #F7AF9D;
     padding-top:5%;
     padding-bottom:3%;
 }
@@ -471,6 +483,28 @@ nav span a:hover {
 }
 
 #sponsors span{
+    margin:auto;
+}
+
+
+#organizer .titles{
+    margin-top: -13.5%;
+}
+
+#organizer .row{
+    grid-template-columns: 33% 34% 33%;
+    display:grid;
+    padding-bottom: 2%;
+    margin:auto;
+}
+
+#organizer .box {
+    padding: 5%;
+	margin:auto;
+	text-align: center;
+}
+
+#organizer span{
     margin:auto;
 }
 

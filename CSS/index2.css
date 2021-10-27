@@ -1672,12 +1672,7 @@ a, a:visited {
 	font-weight: 300;
 }
 
-#organizers {
-	width: 75%;
-	padding: 1% 1% 3%;
-	margin: 10% auto;
-	border-radius: 0.3em;
-}
+
 
 .dayOrganizersBackground {
 	background-color: rgba(255,255,255,0.4);
@@ -1687,18 +1682,7 @@ a, a:visited {
 	background-color: rgba(255,255,255,0.15);
 }
 
-#organizers .row {
-	width: 60%;
-}
 
-#organizers span {
-	width: 70%;
-	margin: auto;
-}
-
-#organizers .organizerIcon {
-	width: 70%;
-}
 
 /* circle makes it look larger */
  #wincIcon {
@@ -2452,9 +2436,7 @@ a, a:visited {
 		width: 90%;
 	} 
 
-	#organizers .row {
-		width: 70%;
-	}
+
 
 	#sponsors .row {
 		grid-template-columns: 50% 50%;
