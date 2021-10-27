@@ -301,14 +301,19 @@ nav span a:hover {
 /*Resources-------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #body_resources{
-	background: #d2f1e4;
+	background: #B0D0D3;
 	
 }
 
 #r_sub{
-	margin-top:2%;
-	border-image-source: url("Assets/img/pink_record.png");
-	border-image-repeat: repeat;
+	margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	background-color: white;
+	border-radius: 20px;
 }
 
 #resources .row {
@@ -324,12 +329,11 @@ nav span a:hover {
 
 #column_titles{
 	min-width:90%;
-	background: #e81b23; 
+	background: #ee9b00; 
 	border-radius: 1em;
 	/* border-right: solid 0.16em #F5855B;
 	border-left: solid 0.16em #F5855B; */
-	border:dashed 0.1em #fffff0;
-	color: #fffff0;
+	color: black;
 	padding-top: 5%;
 	text-align: center;
 	text-decoration: none;
@@ -338,16 +342,16 @@ nav span a:hover {
 	margin-left: 2%;
 	display: inline-block;
 	min-width: 65%;
-	font-size: 1.6em;
+	font-size: 1.4em;
     font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
 }
 
 #column_r{
-	min-width:90%;
+	min-width:92%;
 	background: #fffff0; 
-	border: solid 0.2em #e81b23;
-	color: #e81b23;
+	border: solid 0.2em black;
+	color: black;
 	margin-right: 4%;
 	margin-left: 4%;
 	border-radius: 0.6em;
@@ -357,8 +361,7 @@ nav span a:hover {
 	margin-bottom: 3%;
 	
 	display: inline-block;
-	min-width: 65%;
-	font-size: 1.0em;
+	font-size: 1.5em;
 	font-family: 'Poppins', sans-serif;
 	/* transition-duration: 0.4s; */
 	cursor: pointer;
@@ -367,23 +370,19 @@ nav span a:hover {
 
 
 #column_r:hover{
-	background: #e81b23 ;
-	color: #fffff0;
-	border: solid 0.3em #fffff0;
-	opacity: 1;
-	transform: scale(1.05); 
+	background: black ;
+	color: white;
+	border: solid 0.2em #fffff0;
 	transition: all .3s linear;
 }
 
 .link a{
 	color: #e81b23;
-    font-size: 1.5em;
 	font-family: 'Poppins', sans-serif;
 }
 
 .link:hover a{
 	color: #fffff0;
-    font-size: 1.5em;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -542,10 +541,7 @@ a:visited {
 	text-decoration: none;
 }
 
-a:hover {
-	color: #bdc0d1;
-	opacity: 0.7;
-}
+
 .list .item:visited {
 	color: #bdc0d1;
 	opacity: 1;
@@ -784,7 +780,7 @@ footer #footer{
     /* border-radius: 1em; */
     /* font-size: 1.2em; */
     font-family: 'Poppins', sans-serif;
-    padding:3%;
+    padding: 3%;
     text-align: center;
     color: #fdeda7;
     background: #f3515e;
