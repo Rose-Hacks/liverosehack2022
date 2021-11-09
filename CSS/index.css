@@ -428,7 +428,97 @@ nav span a:hover {
     font-family: 'harlow_solidregular';
     text-align: center;
 }
+
+/*----------------------COVID Section----------------------------------*/
+
+#covidname {
+	font-size: 5rem;
+	padding-top: 2%;
+}
+
+#covidBody {
+	background-color: #fdeda7;
+}
+
+.covidtitle {
+	text-align: center;
+	font-size: 3em;
+	font-family: 'harlow_solidregular';
+	color: #f3585e;
+	margin-top:10%;
+}
+
+#COVID{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: #fdeda7;
+    background: #fdeda7;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.accordion {
+    background-color: rgb(255, 221, 68);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: #f3585e; 
+    font-weight: bold;
+    font-size: 1.5em;
+
+  }
+  
+ .accordion:hover {
+    background-color: rgb(241, 221, 165);
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+
+  
+  .panel {
+    padding: 0 18px;
+    background-color: #fdeda7;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    color: #000;
+    font-size: 1.3em;
+  }
+
+
 /*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#wincIcon {
+	padding-top: 5%;
+	width: 50%;
+}
+
+#sweIcon {
+	padding-top: 5%;
+	width: 50%;
+}
+
 
 .sponsorBody {
     background: #F7AF9D;
@@ -454,7 +544,7 @@ nav span a:hover {
 	padding-left: 5%;
     padding-right: 5%;
     padding-top: 3%;
-    padding-bottom: 6%;
+    padding-bottom: 3%;
     border-radius: 1em; 
 }
 
@@ -492,7 +582,7 @@ nav span a:hover {
 }
 
 #organizer .row{
-    grid-template-columns: 33% 34% 33%;
+    grid-template-columns: 50% 50%;
     display:grid;
     padding-bottom: 2%;
     margin:auto;
