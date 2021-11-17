@@ -632,7 +632,21 @@ nav span a:hover {
 }
 
 #schedule {
-	width: 80%;
+	margin: 1% 10% 5%;
+    background: #ffd97d;
+	padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    border-radius: 1em; 
+}
+
+#scheduletitle {
+	text-align: center;
+	font-size: 3em;
+	font-family: 'harlow_solidregular';
+	color: #f3585e;
+	margin-top: 3%;
 }
 
 /* #sponsors #sponsorsTable {
