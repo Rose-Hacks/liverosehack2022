@@ -440,8 +440,12 @@ nav span a:hover {
 	background-color: #BFB0D3;
 }
 
+#covidBody .titles{
+	margin-top:7%;
+}
+
 .covidnav {
-	background: #9B2226;
+	background: #E81b23;
 }
 
 .covidtitle {
@@ -453,22 +457,23 @@ nav span a:hover {
 }
 
 #COVID{
-	margin-left:5%;
-	margin-right:5%;
-    padding-left: 5%;
+	margin-left:8%;
+	margin-right:8%;
+    /* padding-left: 5%;
     padding-right: 5%;
-    padding-top: 6%;
-    padding-bottom: 3%;
-    color: #FFFFF0;
-    background: #FFFFF0;
+    padding-top: 5%;
+    padding-bottom: 3%; */
+    color: #F7AF9D;
+    background: #fffff0;
+	border: 0.7em solid #fffff0 ;
 	border-radius: 1em;
     font-family: 'Poppins', sans-serif;
 }
 
 
 .accordion {
-    background-color: #FFFFF0;
-    color: #9B2226;
+    background-color: #fffff0;
+    color: #fffff0;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -476,8 +481,9 @@ nav span a:hover {
     outline: none;
     transition: 0.4s;
     border: none;
+	border-radius: 1em;
     font-family: 'Poppins', sans-serif;
-    color: #9B2226; 
+    color: #E81b23; 
     font-weight: bold;
     font-size: 1.5em;
 	
@@ -486,9 +492,9 @@ nav span a:hover {
   }
   
  .accordion:hover {
-    background-color: #B66B63;
+    background-color: #E81b23;
 	color:#fffff0;
-	
+	border-radius: 1em;
   }
   
   .accordion:after {
@@ -502,11 +508,11 @@ nav span a:hover {
   
   .panel {
     padding: 0 18px;
-    background-color: #B66B63;
+    background-color: #fffff0;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    color: #fffff0;
+    color: #E81b23;
     font-size: 1.3em;
   }
 
@@ -522,12 +528,12 @@ nav span a:hover {
 
 #wincIcon {
 	padding-top: 5%;
-	width: 50%;
+	width: 40%;
 }
 
 #sweIcon {
 	padding-top: 5%;
-	width: 50%;
+	width: 40%;
 }
 
 
@@ -557,6 +563,10 @@ nav span a:hover {
     padding-top: 3%;
     padding-bottom: 3%;
     border-radius: 1em; 
+}
+
+#organizer .titles{
+	margin-top: -16%;
 }
 
 #s_sub{
