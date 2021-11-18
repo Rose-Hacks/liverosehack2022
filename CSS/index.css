@@ -441,7 +441,8 @@ nav span a:hover {
 }
 
 #covidBody .titles{
-	margin-top:7%;
+	margin-top:6%;
+	margin-bottom:-4%;
 }
 
 .covidnav {
@@ -459,6 +460,7 @@ nav span a:hover {
 #COVID{
 	margin-left:8%;
 	margin-right:8%;
+	padding-top:5%;
     /* padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
