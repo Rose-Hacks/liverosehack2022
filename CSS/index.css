@@ -462,9 +462,11 @@ nav span a:hover {
 
 .titles{
 	font-size: 4em;
-    color:#f3585e;
     font-family: 'harlow_solidregular';
     text-align: center;
+	margin-top: 5%;
+	margin-bottom: -5%;
+
 }
 
 /*----------------------COVID Section----------------------------------*/
