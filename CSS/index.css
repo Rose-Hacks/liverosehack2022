@@ -31,7 +31,8 @@ body {
 }
 
 #indexBody{
-	background-color: #292E49;
+	background-image: url("Assets/final.jpg"); 
+	background-size: cover;
 }
 
 #altBody {
@@ -82,7 +83,7 @@ body {
 	bottom:35%;
 	right:20px;
 	background-color:#f3585e;
-	color:#FFF;
+	color: white;
 	border-radius:50px;
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;
@@ -128,7 +129,11 @@ body {
 
 /* countdown styles */
 
-div#countdown{color: #353535;}
+div#countdown{
+	color: #353535;
+	margin-top: 3%;
+	margin-left: 2%;
+}
 
 div#countdown p{
 	width: 100%;
@@ -138,10 +143,10 @@ div#countdown p{
 
 p.numbers{
 	width: 100%;
-	height: 85%;
+	height: 56%;
 	background: #FFFFFF;
-	margin-top: -25px;
-	padding-top: 100px;
+	padding-top: 10px;
+	font-size: 3em;
 }
 
 p.strings{
@@ -154,7 +159,7 @@ p.strings{
 
 div.cd-box{
 	width: 210px;
-	height: 360px;
+	height: 250px;
 	background: #FFFFFF;
 	float: left;
 	padding: 25px 0 0 0;
@@ -735,10 +740,10 @@ nav span a:hover {
 }
 
 a {
-	color: #bdc0d1;
+	color: white;
 }
 a:visited {
-	color: #bdc0d1;
+	color: white;
 	text-decoration: none;
 }
 
