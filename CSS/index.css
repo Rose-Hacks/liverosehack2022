@@ -369,6 +369,44 @@ nav span a:hover {
 	margin-right:5%;
 	
 }
+#resources .row2 {
+	display: -ms-grid;
+	display: grid;
+	width: 90%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-bottom: -1.5%;
+}
+
+#resources .row3 {
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 50 50%;
+	    grid-template-columns: 50% 50%;
+	margin: auto;
+	margin-left:5%;
+	margin-right:5%;
+	
+}
+#column_titles2 {
+	min-width:100%;
+	background: #ee9b00; 
+	border-radius: 1em;
+	/* border-right: solid 0.16em #F5855B;
+	border-left: solid 0.16em #F5855B; */
+	color: black;
+	padding-top: 1.2%;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 3%;
+	margin-right: 2%;
+	margin-left: 2%;
+	display: inline-block;
+	min-width: 65%;
+	font-size: 1.4em;
+    font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+}
 
 #column_titles{
 	min-width:90%;
