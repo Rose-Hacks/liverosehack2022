@@ -95,7 +95,7 @@ body {
 
 /* hero */
 
-#herotitle {
+/* #herotitle {
 	font-family: 'harlow_solidregular';
 	text-align: center;
 	background-color: #3c457a;
@@ -114,6 +114,10 @@ body {
 #herotitle h3 {
 	font-size: 1.5em;
 	color: #ffd97d;
+} */
+
+#hacktitle {
+	margin-left: 11%;
 }
 
 /* #countdown {
@@ -143,23 +147,23 @@ div#countdown p{
 
 p.numbers{
 	width: 100%;
-	height: 56%;
+	height: 20%;
 	background: #FFFFFF;
-	padding-top: 10px;
-	font-size: 3em;
+	padding-top: 3px;
+	font-size: 1em;
 }
 
 p.strings{
 	width: 100%;
-	height: auto;
-	padding: 30px 0;
+	height: 70%;
+	padding: 20px 0;
 	background: #FF5722;
 	color: #FFFFFF;
 }
 
 div.cd-box{
 	width: 210px;
-	height: 250px;
+	height: 130px;
 	background: #FFFFFF;
 	float: left;
 	padding: 25px 0 0 0;
