@@ -31,7 +31,7 @@ body {
 }
 
 #indexBody{
-	background-image: url("Assets/final.jpg"); 
+	background-image: url("Assets/final_rhgirlcat.jpg"); 
 	background-size: cover;
 }
 
@@ -89,9 +89,23 @@ body {
 	box-shadow: 2px 2px 3px #999;
 }
 
+.float5{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:45%;
+	right:20px;
+	background-color:#f3585e;
+	color: white;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
 .my-float{
 	margin-top:22px;
 }
+
 
 /* hero */
 
@@ -117,7 +131,12 @@ body {
 } */
 
 #hacktitle {
-	margin-left: 11%;
+	margin-left: 2.5%;
+	font-family: 'harlow_solidregular';
+	font-size: 4em;
+	color: #f3585e;
+	
+
 }
 
 /* #countdown {
@@ -259,6 +278,8 @@ body::-webkit-scrollbar {
 }
 .yellow {
 	background: #292E49;
+	font-family: 'Poppins', sans-serif;
+
 }
 
 .navbar-custom .navbar-brand, 
