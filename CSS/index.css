@@ -52,6 +52,10 @@ body {
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;
 }
+.float1:hover {
+	color: white;
+}
+
 .float2{
 	position:fixed;
 	width:60px;
@@ -64,6 +68,10 @@ body {
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;
 }
+.float2:hover {
+	color: white;
+}
+
 .float3{
 	position:fixed;
 	width:60px;
@@ -76,6 +84,10 @@ body {
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;
 }
+.float3:hover {
+	color: white;
+}
+
 .float4{
 	position:fixed;
 	width:60px;
@@ -87,6 +99,9 @@ body {
 	border-radius:50px;
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;
+}
+.float4:hover {
+	color: white;
 }
 
 .float5{
@@ -101,9 +116,13 @@ body {
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;
 }
+.float5:hover {
+	color: white;
+}
 
 .my-float{
 	margin-top:22px;
+	
 }
 
 
@@ -282,7 +301,7 @@ body::-webkit-scrollbar {
 	/* background-color: #fffff0; */
 }
 .yellow {
-	background: #292E49;
+	background: #f3585e;
 	font-family: 'Poppins', sans-serif;
 
 }
@@ -369,6 +388,85 @@ nav span a:hover {
 #sheet {
 	width: 100%;
 	height: 50%;
+}
+
+/*Schedule---------------------------------------------------------------------------------------------------------------------*/
+
+#schedule .row {
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 33% 34% 33%;
+	    grid-template-columns: 33% 34% 33%;
+	margin: auto;
+	
+}
+
+#schedule .columntitles {
+	font-weight: bolder;
+	border-radius: 1em;
+	/* border-right: solid 0.16em #F5855B;
+	border-left: solid 0.16em #F5855B; */
+	color: black;
+	padding-top: 5%;
+	text-align: center;
+	text-decoration: none;
+	margin: 0% 2% 3% 3%;
+	display: inline-block;
+	font-size: 1.4em;
+    font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	width: 90%;
+}
+
+#schedule .setup {
+	background: #F9c4bc;
+	border-radius: 1em;
+	/* border-right: solid 0.16em #F5855B;
+	border-left: solid 0.16em #F5855B; */
+	color: black;
+	padding-top: 5%;
+	text-align: center;
+	text-decoration: none;
+	margin: 0% 2% 3% 3%;
+	display: inline-block;
+	font-size: 1.4em;
+    font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	width: 90%;
+}
+
+#schedule .workshops {
+	background: #fd9d97;
+	border-radius: 1em;
+	/* border-right: solid 0.16em #F5855B;
+	border-left: solid 0.16em #F5855B; */
+	color: black;
+	padding-top: 5%;
+	text-align: center;
+	text-decoration: none;
+	margin: 0% 2% 3% 3%;
+	display: inline-block;
+	font-size: 1.4em;
+    font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	width: 90%;
+}
+
+#schedule .activities {
+	background: #d67667;
+	border-radius: 1em;
+	/* border-right: solid 0.16em #F5855B;
+	border-left: solid 0.16em #F5855B; */
+	color: black;
+	padding-top: 5%;
+	text-align: center;
+	text-decoration: none;
+	margin: 0% 2% 3% 3%;
+	display: inline-block;
+	font-size: 1.4em;
+    font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	width: 90%;
 }
 
 /*Resources-------------------------------------------------------------------------------------------------------------------------------------------*/
