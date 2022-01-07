@@ -395,8 +395,8 @@ nav span a:hover {
 #schedule .row {
 	display: -ms-grid;
 	display: grid;
-	-ms-grid-columns: 33% 34% 33%;
-	    grid-template-columns: 33% 34% 33%;
+	-ms-grid-columns: 25% 25% 25% 25%;
+	    grid-template-columns: 25% 25% 25% 25%;
 	margin: auto;
 	
 }
