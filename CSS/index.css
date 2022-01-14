@@ -351,12 +351,12 @@ nav span a:hover {
 /*Schedule---------------------------------------------------------------------------------------------------------------------*/
 
 #saturday {
-	margin-left: 40%;
+	margin-left: 25%;
 	font-family: "Poppins", sans-serif;
 }
 
 #sunday {
-	margin-left: 42%;
+	margin-left: 28%;
 	margin-top: 5%;
 	font-family: "Poppins", sans-serif;
 }
@@ -472,6 +472,7 @@ nav span a:hover {
     font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
 	width: 90%;
+	justify-content: center;
 }
 
 /*Resources-------------------------------------------------------------------------------------------------------------------------------------------*/
