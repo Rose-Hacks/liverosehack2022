@@ -30,7 +30,7 @@ body {
 	background-color: #292E49;
 }
 
-#indexBody{
+.indexBody{
 	background-image: url("Assets/final_rhgirlcat.jpg"); 
 	background-size: cover;
 }
@@ -1234,4 +1234,37 @@ footer #footer{
 	.normal_stuff {
 		display: none;
 	}
+
+	.indexBody{
+		background-color: #fdeda7;
+		background-image: none;
+	}
+	#hacktitle {
+		margin-left: 10%;
+		margin-top: 18%;
+		font-family: 'harlow_solidregular';
+		font-size: 5em;
+		color: #f3585e;
+	}
+
+	#hacktitle3 {
+		margin-left: 17.5%;
+		font-family: 'Poppins', sans-serif;
+		font-size: 1em;
+		color: #f3585e;
+		margin-bottom: 2%;
+	}
+
+	p.numbers{
+		display: -ms-grid;
+		display: grid;
+		-ms-grid-columns: 100%;
+			grid-template-columns: 100%;
+		padding-top: 3px;
+		font-size: 1.5em;
+		text-align: center;
+		padding-left: 25%;
+	}
+
+	
 }
