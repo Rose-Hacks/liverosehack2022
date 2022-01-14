@@ -366,6 +366,7 @@ nav span a:hover {
 	margin-top: -10%;
 	color: blue;
 	margin-right: 5%;
+	font-size: 1.2em
 }
 
 #schedule span p {
@@ -530,7 +531,7 @@ nav span a:hover {
 }
 
 .sub_align {
-	font-size: 0.5em;
+	font-size: 0.55em;
 }
 
 #column_titles2 {
