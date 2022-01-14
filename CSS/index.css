@@ -372,6 +372,12 @@ nav span a:hover {
 	font-size: 0.75em;
 }
 
+.grow p {
+	padding: 5px;
+	justify-content: center;
+	
+}
+
 #schedule .row {
 	display: -ms-grid;
 	display: grid;
@@ -1239,6 +1245,9 @@ footer #footer{
 	.indexBody{
 		background-color: #fdeda7;
 		background-image: none;
+	}
+	.grow p {
+		padding: 5px;
 	}
 	#hacktitle {
 		margin-left: 10%;
